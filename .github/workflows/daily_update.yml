@@ -1,0 +1,42 @@
+name: Daily Deals & Coupons Hub Update
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-hub:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Daily Content Update
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python update_content.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/groups.json index.html sitemap.xml feed.xml robots.txt
+          if git diff --staged --quiet; then
+            echo "No new changes to commit."
+          else
+            git commit -m "Automated update: discover trending deal & coupon communities [skip ci]"
+            git push origin main
+          fi
