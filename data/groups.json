@@ -1,5 +1,44 @@
 [
   {
+    "id": "luxury-watch-chrono-steals",
+    "title": "Timepiece & Chrono Deal Exchange",
+    "category": "Fashion & Lifestyle",
+    "platform": "Discord",
+    "memberCount": 38100,
+    "discountRange": "30% - 65% OFF",
+    "description": "Authorized dealer discounts on Seiko, Tissot, Hamilton, and pre-owned luxury Swiss watch gray market flash sales.",
+    "joinUrl": "https://discord.gg/watchdeals",
+    "tags": [
+      "watches",
+      "seiko",
+      "tissot",
+      "luxury fashion",
+      "horology"
+    ],
+    "verified": true,
+    "featured": false,
+    "lastUpdated": "2026-09-03"
+  },
+  {
+    "id": "costco-clearance-secret-items",
+    "title": "Costco Secret Clearance & .97 Endcaps",
+    "category": "Amazon & E-Commerce",
+    "platform": "Telegram",
+    "memberCount": 128900,
+    "discountRange": "40% - 85% OFF",
+    "description": "Hunters spotting manager markdowns ending in .97 and asterisk items across Costco warehouses nationwide with inventory lookup tips.",
+    "joinUrl": "https://t.me/costcoclearancefinds",
+    "tags": [
+      "costco",
+      "clearance",
+      "97 cent deals",
+      "bulk savings"
+    ],
+    "verified": true,
+    "featured": true,
+    "lastUpdated": "2026-09-03"
+  },
+  {
     "id": "whole-foods-prime-perks",
     "title": "Whole Foods & Organic Grocery Perks",
     "category": "Price Glitches & Loot",
