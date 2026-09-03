@@ -1,5 +1,43 @@
 [
   {
+    "id": "lego-toy-collector-drops",
+    "title": "LEGO & Rare Collectibles Markdowns",
+    "category": "Tech & Gadgets",
+    "platform": "Reddit",
+    "memberCount": 142000,
+    "discountRange": "25% - 60% OFF",
+    "description": "Alerts for retiring LEGO sets on sale, Target damaged box liquidations, and Amazon surprise coupon drops on Star Wars sets.",
+    "joinUrl": "https://reddit.com/r/legodeals",
+    "tags": [
+      "lego",
+      "star wars lego",
+      "target clearance",
+      "collectibles"
+    ],
+    "verified": true,
+    "featured": false,
+    "lastUpdated": "2026-09-03"
+  },
+  {
+    "id": "business-class-points-glitches",
+    "title": "Lie-Flat Business Class Error Rates",
+    "category": "Travel & Error Fares",
+    "platform": "Telegram",
+    "memberCount": 115400,
+    "discountRange": "70% - 90% OFF",
+    "description": "Specialized alerts for sub-$1,200 lie-flat business class transatlantic tickets and unannounced Qatar Qsuite award drops.",
+    "joinUrl": "https://t.me/businessclasserrors",
+    "tags": [
+      "business class",
+      "luxury travel",
+      "qsuite",
+      "airline error"
+    ],
+    "verified": true,
+    "featured": true,
+    "lastUpdated": "2026-09-03"
+  },
+  {
     "id": "luxury-watch-chrono-steals",
     "title": "Timepiece & Chrono Deal Exchange",
     "category": "Fashion & Lifestyle",
