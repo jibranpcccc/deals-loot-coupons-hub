@@ -1,17 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deals, Loot &amp; Coupons Hub</title>
+    <title>Deals, Loot &amp; Coupons Hub | Verified Communities</title>
     <link>https://jibranpcccc.github.io/deals-loot-coupons-hub/</link>
-    <description>Verified community directory and updates.</description>
-    <lastBuildDate>Fri, 04 Sep 2026 14:40:00 GMT</lastBuildDate>
-    <atom:link href="https://jibranpcccc.github.io/deals-loot-coupons-hub/feed.xml" rel="self" type="application/rss+xml"/>
-    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+    <description>Discover verified Telegram channels, Discord servers, WhatsApp groups, and Reddit hubs for Amazon promo stacks, price glitches, flight error fares, and retail loot.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Sep 2026 10:59:52 +0000</lastBuildDate>
+    <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+    <atom:link rel="self" href="https://jibranpcccc.github.io/deals-loot-coupons-hub/feed.xml" type="application/rss+xml" />
     <item>
-      <title>Deals, Loot &amp; Coupons Hub Initial Release</title>
-      <link>https://jibranpcccc.github.io/deals-loot-coupons-hub/</link>
-      <pubDate>Fri, 04 Sep 2026 14:40:00 GMT</pubDate>
-      <description>Initial collection of verified communities published.</description>
+      <title>VIP Flash Loot Radar #592 (75% - 95% OFF)</title>
+      <link>https://t.me/vipflashloot_592</link>
+      <description>High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance. [Platform: Telegram | Category: Price Glitches &amp; Loot]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#trending-flash-loot-1788519592</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Price Glitches &amp; Loot</category>
+    </item>
+    <item>
+      <title>VIP Flash Loot Radar #381 (75% - 95% OFF)</title>
+      <link>https://t.me/vipflashloot_381</link>
+      <description>High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance. [Platform: Telegram | Category: Price Glitches &amp; Loot]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#trending-flash-loot-1788494381</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Price Glitches &amp; Loot</category>
+    </item>
+    <item>
+      <title>LEGO &amp; Rare Collectibles Markdowns (25% - 60% OFF)</title>
+      <link>https://reddit.com/r/legodeals</link>
+      <description>Alerts for retiring LEGO sets on sale, Target damaged box liquidations, and Amazon surprise coupon drops on Star Wars sets. [Platform: Reddit | Category: Tech &amp; Gadgets]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#lego-toy-collector-drops</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Tech &amp; Gadgets</category>
+    </item>
+    <item>
+      <title>Lie-Flat Business Class Error Rates (70% - 90% OFF)</title>
+      <link>https://t.me/businessclasserrors</link>
+      <description>Specialized alerts for sub-$1,200 lie-flat business class transatlantic tickets and unannounced Qatar Qsuite award drops. [Platform: Telegram | Category: Travel &amp; Error Fares]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#business-class-points-glitches</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Travel &amp; Error Fares</category>
+    </item>
+    <item>
+      <title>Timepiece &amp; Chrono Deal Exchange (30% - 65% OFF)</title>
+      <link>https://discord.gg/watchdeals</link>
+      <description>Authorized dealer discounts on Seiko, Tissot, Hamilton, and pre-owned luxury Swiss watch gray market flash sales. [Platform: Discord | Category: Fashion &amp; Lifestyle]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#luxury-watch-chrono-steals</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Fashion &amp; Lifestyle</category>
+    </item>
+    <item>
+      <title>Costco Secret Clearance &amp; .97 Endcaps (40% - 85% OFF)</title>
+      <link>https://t.me/costcoclearancefinds</link>
+      <description>Hunters spotting manager markdowns ending in .97 and asterisk items across Costco warehouses nationwide with inventory lookup tips. [Platform: Telegram | Category: Amazon &amp; E-Commerce]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#costco-clearance-secret-items</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Amazon &amp; E-Commerce</category>
+    </item>
+    <item>
+      <title>Whole Foods &amp; Organic Grocery Perks (35% - 70% OFF)</title>
+      <link>https://t.me/wholefoodsperks</link>
+      <description>Weekly automated breakdowns of yellow tag sales, Prime member extra 10% stacks, and seasonal organic pantry liquidations. [Platform: Telegram | Category: Price Glitches &amp; Loot]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#whole-foods-prime-perks</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Price Glitches &amp; Loot</category>
+    </item>
+    <item>
+      <title>Steam Deck &amp; Handheld Gaming Loot (40% - 75% OFF)</title>
+      <link>https://discord.gg/handheldsteals</link>
+      <description>Tracking MicroSD card speed sales, verified Steam Deck OLED discounts, ASUS ROG Ally open-box price cuts, and docks. [Platform: Discord | Category: Tech &amp; Gadgets]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#steam-deck-rog-ally-deals</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Tech &amp; Gadgets</category>
+    </item>
+    <item>
+      <title>Glitch &amp; Price Error Alert Squad (80% - 99% OFF)</title>
+      <link>https://t.me/glitchdealalerts</link>
+      <description>Ultra-fast automated scraper tracking algorithmic pricing errors, misplaced coupons, and retailer checkout glitches across Amazon, Walmart, and Target before they get patched. [Platform: Telegram | Category: Price Glitches &amp; Loot]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#glitch-deals-squad</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Price Glitches &amp; Loot</category>
+    </item>
+    <item>
+      <title>Amazon Promo Code &amp; Clip Stacker (50% - 85% OFF)</title>
+      <link>https://t.me/amazonpromostacks</link>
+      <description>Curated hidden seller promo codes that stack with on-page coupons and subscribe &amp; save discounts for massive discounts on household items, gadgets, and everyday essentials. [Platform: Telegram | Category: Amazon &amp; E-Commerce]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#amazon-lightning-stacks</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Amazon &amp; E-Commerce</category>
+    </item>
+    <item>
+      <title>PC Hardware &amp; GPU Steals Lounge (30% - 60% OFF)</title>
+      <link>https://discord.gg/hardwaredrops</link>
+      <description>Dedicated build alerts, open-box warehouse deals, SSD price drops, graphics card clearance notifications, and combo code stacks from Newegg, Micro Center, and Amazon. [Platform: Discord | Category: Tech &amp; Gadgets]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#pc-parts-gpu-lounge</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Tech &amp; Gadgets</category>
+    </item>
+    <item>
+      <title>Error Fare &amp; Flight Glitch Watch (60% - 90% OFF)</title>
+      <link>https://t.me/errorfareradar</link>
+      <description>Instant broadcast channel for airline fuel dumping errors, currency conversion glitches, mistake business class tickets, and flash airfare sales worldwide. [Platform: Telegram | Category: Travel &amp; Error Fares]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#secret-flying-error-fares</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Travel &amp; Error Fares</category>
+    </item>
+    <item>
+      <title>Streetwear &amp; Kicks Deal Syndicate (40% - 75% OFF)</title>
+      <link>https://discord.gg/streetwearsteals</link>
+      <description>Monitors Nike, Adidas, ASOS, SSENSE, and Nordstrom Rack for unannounced markdowns, VIP coupon codes, and clearance restocks with zero resale fluff. [Platform: Discord | Category: Fashion &amp; Lifestyle]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#designer-streetwear-steals</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Fashion &amp; Lifestyle</category>
+    </item>
+    <item>
+      <title>r/Freebies &amp; Zero-Dollar Hauls (100% Free / Freebies)</title>
+      <link>https://reddit.com/r/freebies</link>
+      <description>The largest crowdsourced community testing and sharing 100% free physical merchandise samples, birthday freebies, zero-dollar digital promotions, and magazine subscriptions. [Platform: Reddit | Category: Price Glitches &amp; Loot]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#reddit-freebies-hauls</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Price Glitches &amp; Loot</category>
+    </item>
+    <item>
+      <title>Prime Loot &amp; VIP Flash Alerts (60% - 90% OFF)</title>
+      <link>https://chat.whatsapp.com/invite/primelootalerts</link>
+      <description>Mobile-first instant WhatsApp group relaying time-sensitive lightning deals, 1-hour flash sales, and prime member exclusive double coupon glitch stacks. [Platform: WhatsApp | Category: Amazon &amp; E-Commerce]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#prime-shopping-ninja</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Amazon &amp; E-Commerce</category>
+    </item>
+    <item>
+      <title>r/BuildAPCSales &amp; Tech Drops (25% - 70% OFF)</title>
+      <link>https://reddit.com/r/buildapcsales</link>
+      <description>Crowdsourced and strictly moderated tech deals repository vetting monitor price drops, RAM historic lows, power supply discounts, and manufacturer refurbished gems. [Platform: Reddit | Category: Tech &amp; Gadgets]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#hardware-swap-refurb</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Tech &amp; Gadgets</category>
+    </item>
+    <item>
+      <title>Luxury &amp; Designer Outlet Watch (50% - 80% OFF)</title>
+      <link>https://t.me/luxuryoutletsteals</link>
+      <description>Tracking Saks Fifth Avenue OFF 5TH, Farfetch private sales, Coach Outlet glitch coupons, and luxury fragrance flash clearance discounts before inventory clears. [Platform: Telegram | Category: Fashion &amp; Lifestyle]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#luxury-outlet-glitches</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Fashion &amp; Lifestyle</category>
+    </item>
+    <item>
+      <title>Mistake Fares &amp; Transatlantic Flight Glitches (70% - 92% OFF)</title>
+      <link>https://t.me/mistakefaresglobal</link>
+      <description>Scrapes OTA systems and airline reservation feeds for inadvertent drop-off pricing, mistaken 0-dollar fuel surcharges, and deeply discounted international routing. [Platform: Telegram | Category: Travel &amp; Error Fares]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#mistake-fares-going</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Travel &amp; Error Fares</category>
+    </item>
+    <item>
+      <title>Loot Matrix &amp; Penny Items Finder (95% - 99% OFF)</title>
+      <link>https://discord.gg/lootmatrix</link>
+      <description>Home of penny item hunters, barcode glitch verifiers, and physical clearance store scanning hacks for Home Depot, Dollar General, and Walmart clearance aisles. [Platform: Discord | Category: Price Glitches &amp; Loot]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#loot-freebie-matrix</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Price Glitches &amp; Loot</category>
+    </item>
+    <item>
+      <title>Target &amp; Walmart Clearance Insider (50% - 90% OFF)</title>
+      <link>https://t.me/targetwalmartinsider</link>
+      <description>Unlocks hidden UPC clearance reductions, online price matches, rollback glitches, and secret warehouse surplus auctions across big-box retailers. [Platform: Telegram | Category: Amazon &amp; E-Commerce]</description>
+      <guid isPermaLink="false">https://jibranpcccc.github.io/deals-loot-coupons-hub/#target-walmart-hidden</guid>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <category>Amazon &amp; E-Commerce</category>
     </item>
   </channel>
 </rss>
