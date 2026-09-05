@@ -1,61 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google Analytics 4 (GA4) Unified Measurement Tag & AI Referral Attribution -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CK7NVYS1Y9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      // AI / LLM Search Engine Referral & Citations Attribution Engine
-      (function() {
-        var ref = document.referrer ? document.referrer.toLowerCase() : '';
-        var params = new URLSearchParams(window.location.search);
-        var utmSource = (params.get('utm_source') || '').toLowerCase();
-        
-        var aiEngine = null;
-        if (ref.indexOf('chatgpt.com') !== -1 || ref.indexOf('openai.com') !== -1 || utmSource.indexOf('chatgpt') !== -1) {
-          aiEngine = 'ChatGPT';
-        } else if (ref.indexOf('gemini.google.com') !== -1 || utmSource.indexOf('gemini') !== -1) {
-          aiEngine = 'Google Gemini';
-        } else if (ref.indexOf('perplexity.ai') !== -1 || utmSource.indexOf('perplexity') !== -1) {
-          aiEngine = 'Perplexity AI';
-        } else if (ref.indexOf('claude.ai') !== -1 || utmSource.indexOf('claude') !== -1) {
-          aiEngine = 'Claude AI';
-        } else if (ref.indexOf('copilot.microsoft.com') !== -1 || ref.indexOf('bing.com/chat') !== -1 || utmSource.indexOf('copilot') !== -1) {
-          aiEngine = 'Microsoft Copilot';
-        } else if (ref.indexOf('android-app://com.openai') !== -1) {
-          aiEngine = 'ChatGPT Mobile App';
-        } else if (ref.indexOf('meta.ai') !== -1) {
-          aiEngine = 'Meta AI';
-        } else if (ref.indexOf('deepseek.com') !== -1) {
-          aiEngine = 'DeepSeek AI';
-        }
-
-        var configObj = {
-          'send_page_view': true,
-          'portfolio_folder': 'ai_directory_empire',
-          'page_path': window.location.pathname
-        };
-
-        if (aiEngine) {
-          configObj['user_properties'] = { 'last_ai_referrer': aiEngine };
-          gtag('config', 'G-CK7NVYS1Y9', configObj);
-          gtag('event', 'ai_search_traffic', {
-            'event_category': 'AI Search Traffic',
-            'ai_engine': aiEngine,
-            'traffic_type': 'LLM Referral',
-            'referrer_url': ref || 'direct_or_app',
-            'landing_page': window.location.pathname,
-            'page_title': document.title
-          });
-        } else {
-          gtag('config', 'G-CK7NVYS1Y9', configObj);
-        }
-      })();
-    </script>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Deals, Loot & Coupons Hub | 25+ Verified Deal & Glitch Communities</title>
@@ -148,11 +93,27 @@
   "url": "https://jibranpcccc.github.io/deals-loot-coupons-hub/",
   "mainEntity": {
     "@type": "ItemList",
-    "numberOfItems": 39,
+    "numberOfItems": 40,
     "itemListElement": [
       {
         "@type": "ListItem",
         "position": 1,
+        "item": {
+          "@type": "OnlineBusiness",
+          "name": "VIP Flash Loot Radar #722",
+          "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.",
+          "url": "https://t.me/vipflashloot_722",
+          "category": "Price Glitches & Loot",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "68"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
         "item": {
           "@type": "OnlineBusiness",
           "name": "VIP Flash Loot Radar #609",
@@ -168,7 +129,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 2,
+        "position": 3,
         "item": {
           "@type": "OnlineBusiness",
           "name": "VIP Flash Loot Radar #244",
@@ -184,7 +145,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 3,
+        "position": 4,
         "item": {
           "@type": "OnlineBusiness",
           "name": "VIP Flash Loot Radar #61",
@@ -200,7 +161,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 4,
+        "position": 5,
         "item": {
           "@type": "OnlineBusiness",
           "name": "VIP Flash Loot Radar #592",
@@ -216,7 +177,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 5,
+        "position": 6,
         "item": {
           "@type": "OnlineBusiness",
           "name": "VIP Flash Loot Radar #381",
@@ -232,7 +193,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 6,
+        "position": 7,
         "item": {
           "@type": "OnlineBusiness",
           "name": "LEGO & Rare Collectibles Markdowns",
@@ -248,7 +209,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 7,
+        "position": 8,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Lie-Flat Business Class Error Rates",
@@ -264,7 +225,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 8,
+        "position": 9,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Timepiece & Chrono Deal Exchange",
@@ -280,7 +241,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 9,
+        "position": 10,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Costco Secret Clearance & .97 Endcaps",
@@ -296,7 +257,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 10,
+        "position": 11,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Whole Foods & Organic Grocery Perks",
@@ -312,7 +273,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 11,
+        "position": 12,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Steam Deck & Handheld Gaming Loot",
@@ -328,7 +289,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 12,
+        "position": 13,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Glitch & Price Error Alert Squad",
@@ -344,7 +305,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 13,
+        "position": 14,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Amazon Promo Code & Clip Stacker",
@@ -360,7 +321,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 14,
+        "position": 15,
         "item": {
           "@type": "OnlineBusiness",
           "name": "PC Hardware & GPU Steals Lounge",
@@ -376,7 +337,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 15,
+        "position": 16,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Error Fare & Flight Glitch Watch",
@@ -392,7 +353,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 16,
+        "position": 17,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Streetwear & Kicks Deal Syndicate",
@@ -408,7 +369,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 17,
+        "position": 18,
         "item": {
           "@type": "OnlineBusiness",
           "name": "r/Freebies & Zero-Dollar Hauls",
@@ -424,7 +385,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 18,
+        "position": 19,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Prime Loot & VIP Flash Alerts",
@@ -440,7 +401,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 19,
+        "position": 20,
         "item": {
           "@type": "OnlineBusiness",
           "name": "r/BuildAPCSales & Tech Drops",
@@ -456,7 +417,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 20,
+        "position": 21,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Luxury & Designer Outlet Watch",
@@ -472,7 +433,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 21,
+        "position": 22,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Mistake Fares & Transatlantic Flight Glitches",
@@ -488,7 +449,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 22,
+        "position": 23,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Loot Matrix & Penny Items Finder",
@@ -504,7 +465,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 23,
+        "position": 24,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Target & Walmart Clearance Insider",
@@ -520,7 +481,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 24,
+        "position": 25,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Apple Deals & Refurbished Tracker",
@@ -536,7 +497,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 25,
+        "position": 26,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Sneaker Steals & Under-Retail Alerts",
@@ -552,7 +513,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 26,
+        "position": 27,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Award Travel, Points & Glitch Guild",
@@ -568,7 +529,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 27,
+        "position": 28,
         "item": {
           "@type": "OnlineBusiness",
           "name": "r/Churning & Triple Cashback Stacking",
@@ -584,7 +545,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 28,
+        "position": 29,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Smart Home, IoT & Audio Steals",
@@ -600,7 +561,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 29,
+        "position": 30,
         "item": {
           "@type": "OnlineBusiness",
           "name": "r/Coupons & Verified Promo Codes",
@@ -616,7 +577,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 30,
+        "position": 31,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Grocery Coupon Stacks & Freebies",
@@ -632,7 +593,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 31,
+        "position": 32,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Game Deals, Free Steam Keys & Bundles",
@@ -648,7 +609,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 32,
+        "position": 33,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Zara, H&M & ASOS Clearance Hounds",
@@ -664,7 +625,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 33,
+        "position": 34,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Cruise Line Glitches & Resort Steals",
@@ -680,7 +641,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 34,
+        "position": 35,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Best Buy & Tech Open-Box Radar",
@@ -696,7 +657,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 35,
+        "position": 36,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Ulta, Sephora & Skincare GWP Stacks",
@@ -712,7 +673,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 36,
+        "position": 37,
         "item": {
           "@type": "OnlineBusiness",
           "name": "5-Star Hotel Pricing Bugs & Promo Codes",
@@ -728,7 +689,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 37,
+        "position": 38,
         "item": {
           "@type": "OnlineBusiness",
           "name": "r/Deals Online Shopping Syndicate",
@@ -744,7 +705,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 38,
+        "position": 39,
         "item": {
           "@type": "OnlineBusiness",
           "name": "Home Depot, Lowes & Appliance Scraper",
@@ -760,7 +721,7 @@
       },
       {
         "@type": "ListItem",
-        "position": 39,
+        "position": 40,
         "item": {
           "@type": "OnlineBusiness",
           "name": "DoorDash, UberEats & Fast Food Glitches",
@@ -2008,11 +1969,11 @@
       <!-- Stats Row -->
       <div class="stats-row">
         <div class="stat-item">
-          <div class="stat-value" id="stat-channels">39+</div>
+          <div class="stat-value" id="stat-channels">40+</div>
           <div class="stat-label">Verified Communities</div>
         </div>
         <div class="stat-item">
-          <div class="stat-value" id="stat-members">6.4M+</div>
+          <div class="stat-value" id="stat-members">6.5M+</div>
           <div class="stat-label">Active Bargain Hunters</div>
         </div>
         <div class="stat-item">
@@ -2064,7 +2025,7 @@
     <!-- Results Status & Sort -->
     <div class="results-bar">
       <div class="results-count">
-        Showing <span id="filtered-count">39</span> of <span>39</span> vetted communities
+        Showing <span id="filtered-count">40</span> of <span>40</span> vetted communities
       </div>
       <div class="sort-control">
         <label for="sort-select"><i class="fas fa-arrow-down-wide-short"></i> Sort By:</label>
@@ -2077,9 +2038,47 @@
     </div>
 
     <!-- Deal Cards Grid -->
-    <section id="vetted-communities" class="deals-grid" id="deals-grid" aria-label="Deal Community Cards">
+    <section class="deals-grid" id="deals-grid" aria-label="Deal Community Cards">
       
-    <article id="trending-flash-loot-1788580609" class="deal-card" data-id="trending-flash-loot-1788580609" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="65609" data-title="VIP Flash Loot Radar #609" data-tags="flash loot price error clearance amazon">
+    <article class="deal-card" data-id="trending-flash-loot-1788603722" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="68722" data-title="VIP Flash Loot Radar #722" data-tags="flash loot price error clearance amazon">
+      <div class="card-header">
+        <div class="card-badges">
+          <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
+          <span class="badge-verified" title="Verified Community"><i class="fas fa-circle-check"></i> Verified</span>
+          
+        </div>
+        <div class="discount-pill">
+          <i class="fas fa-tag"></i> 75% - 95% OFF
+        </div>
+      </div>
+      
+      <div class="card-body">
+        <h3 class="card-title">VIP Flash Loot Radar #722</h3>
+        <div class="card-meta">
+          <span class="meta-category"><i class="fas fa-folder-open"></i> Price Glitches &amp; Loot</span>
+          <span class="meta-members"><i class="fas fa-users"></i> 68,722 Bargain Hunters</span>
+        </div>
+        <p class="card-desc">High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.</p>
+        
+        <div class="card-tags">
+          <span class="tag-chip" onclick="handleTagClick('flash loot')">#flash loot</span><span class="tag-chip" onclick="handleTagClick('price error')">#price error</span><span class="tag-chip" onclick="handleTagClick('clearance')">#clearance</span><span class="tag-chip" onclick="handleTagClick('amazon')">#amazon</span>
+        </div>
+      </div>
+      
+      <div class="card-footer">
+        <div class="card-status">
+          <span class="pulse-indicator"></span>
+          <span class="status-text">Active • Updated 2026-09-05</span>
+        </div>
+        <a href="https://t.me/vipflashloot_722" target="_blank" rel="noopener noreferrer" class="btn-claim">
+          <span>Claim Deals</span>
+          <i class="fas fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </article>
+    
+
+    <article class="deal-card" data-id="trending-flash-loot-1788580609" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="65609" data-title="VIP Flash Loot Radar #609" data-tags="flash loot price error clearance amazon">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2117,7 +2116,7 @@
     </article>
     
 
-    <article id="trending-flash-loot-1788554244" class="deal-card" data-id="trending-flash-loot-1788554244" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="79244" data-title="VIP Flash Loot Radar #244" data-tags="flash loot price error clearance amazon">
+    <article class="deal-card" data-id="trending-flash-loot-1788554244" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="79244" data-title="VIP Flash Loot Radar #244" data-tags="flash loot price error clearance amazon">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2155,7 +2154,7 @@
     </article>
     
 
-    <article id="trending-flash-loot-1788538061" class="deal-card" data-id="trending-flash-loot-1788538061" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="83061" data-title="VIP Flash Loot Radar #61" data-tags="flash loot price error clearance amazon">
+    <article class="deal-card" data-id="trending-flash-loot-1788538061" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="83061" data-title="VIP Flash Loot Radar #61" data-tags="flash loot price error clearance amazon">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2193,7 +2192,7 @@
     </article>
     
 
-    <article id="trending-flash-loot-1788519592" class="deal-card" data-id="trending-flash-loot-1788519592" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="84592" data-title="VIP Flash Loot Radar #592" data-tags="flash loot price error clearance amazon">
+    <article class="deal-card" data-id="trending-flash-loot-1788519592" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="84592" data-title="VIP Flash Loot Radar #592" data-tags="flash loot price error clearance amazon">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2231,7 +2230,7 @@
     </article>
     
 
-    <article id="trending-flash-loot-1788494381" class="deal-card" data-id="trending-flash-loot-1788494381" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="79381" data-title="VIP Flash Loot Radar #381" data-tags="flash loot price error clearance amazon">
+    <article class="deal-card" data-id="trending-flash-loot-1788494381" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="79381" data-title="VIP Flash Loot Radar #381" data-tags="flash loot price error clearance amazon">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2269,7 +2268,7 @@
     </article>
     
 
-    <article id="lego-toy-collector-drops" class="deal-card" data-id="lego-toy-collector-drops" data-category="Tech &amp; Gadgets" data-platform="Reddit" data-members="142000" data-title="LEGO &amp; Rare Collectibles Markdowns" data-tags="lego star wars lego target clearance collectibles">
+    <article class="deal-card" data-id="lego-toy-collector-drops" data-category="Tech &amp; Gadgets" data-platform="Reddit" data-members="142000" data-title="LEGO &amp; Rare Collectibles Markdowns" data-tags="lego star wars lego target clearance collectibles">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-reddit"><i class="fab fa-reddit-alien"></i> Reddit</span>
@@ -2307,7 +2306,7 @@
     </article>
     
 
-    <article id="business-class-points-glitches" class="deal-card" data-id="business-class-points-glitches" data-category="Travel &amp; Error Fares" data-platform="Telegram" data-members="115400" data-title="Lie-Flat Business Class Error Rates" data-tags="business class luxury travel qsuite airline error">
+    <article class="deal-card" data-id="business-class-points-glitches" data-category="Travel &amp; Error Fares" data-platform="Telegram" data-members="115400" data-title="Lie-Flat Business Class Error Rates" data-tags="business class luxury travel qsuite airline error">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2345,7 +2344,7 @@
     </article>
     
 
-    <article id="luxury-watch-chrono-steals" class="deal-card" data-id="luxury-watch-chrono-steals" data-category="Fashion &amp; Lifestyle" data-platform="Discord" data-members="38100" data-title="Timepiece &amp; Chrono Deal Exchange" data-tags="watches seiko tissot luxury fashion horology">
+    <article class="deal-card" data-id="luxury-watch-chrono-steals" data-category="Fashion &amp; Lifestyle" data-platform="Discord" data-members="38100" data-title="Timepiece &amp; Chrono Deal Exchange" data-tags="watches seiko tissot luxury fashion horology">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-discord"><i class="fab fa-discord"></i> Discord</span>
@@ -2383,7 +2382,7 @@
     </article>
     
 
-    <article id="costco-clearance-secret-items" class="deal-card" data-id="costco-clearance-secret-items" data-category="Amazon &amp; E-Commerce" data-platform="Telegram" data-members="128900" data-title="Costco Secret Clearance &amp; .97 Endcaps" data-tags="costco clearance 97 cent deals bulk savings">
+    <article class="deal-card" data-id="costco-clearance-secret-items" data-category="Amazon &amp; E-Commerce" data-platform="Telegram" data-members="128900" data-title="Costco Secret Clearance &amp; .97 Endcaps" data-tags="costco clearance 97 cent deals bulk savings">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2421,7 +2420,7 @@
     </article>
     
 
-    <article id="whole-foods-prime-perks" class="deal-card" data-id="whole-foods-prime-perks" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="47600" data-title="Whole Foods &amp; Organic Grocery Perks" data-tags="whole foods organic grocery coupons prime discount">
+    <article class="deal-card" data-id="whole-foods-prime-perks" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="47600" data-title="Whole Foods &amp; Organic Grocery Perks" data-tags="whole foods organic grocery coupons prime discount">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2459,7 +2458,7 @@
     </article>
     
 
-    <article id="steam-deck-rog-ally-deals" class="deal-card" data-id="steam-deck-rog-ally-deals" data-category="Tech &amp; Gadgets" data-platform="Discord" data-members="54200" data-title="Steam Deck &amp; Handheld Gaming Loot" data-tags="steam deck handheld gaming deals rog ally">
+    <article class="deal-card" data-id="steam-deck-rog-ally-deals" data-category="Tech &amp; Gadgets" data-platform="Discord" data-members="54200" data-title="Steam Deck &amp; Handheld Gaming Loot" data-tags="steam deck handheld gaming deals rog ally">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-discord"><i class="fab fa-discord"></i> Discord</span>
@@ -2497,7 +2496,7 @@
     </article>
     
 
-    <article id="glitch-deals-squad" class="deal-card" data-id="glitch-deals-squad" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="248500" data-title="Glitch &amp; Price Error Alert Squad" data-tags="price glitch price error loot amazon bugs freebies">
+    <article class="deal-card" data-id="glitch-deals-squad" data-category="Price Glitches &amp; Loot" data-platform="Telegram" data-members="248500" data-title="Glitch &amp; Price Error Alert Squad" data-tags="price glitch price error loot amazon bugs freebies">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2535,7 +2534,7 @@
     </article>
     
 
-    <article id="amazon-lightning-stacks" class="deal-card" data-id="amazon-lightning-stacks" data-category="Amazon &amp; E-Commerce" data-platform="Telegram" data-members="182300" data-title="Amazon Promo Code &amp; Clip Stacker" data-tags="amazon promo codes coupons clip coupon prime deals">
+    <article class="deal-card" data-id="amazon-lightning-stacks" data-category="Amazon &amp; E-Commerce" data-platform="Telegram" data-members="182300" data-title="Amazon Promo Code &amp; Clip Stacker" data-tags="amazon promo codes coupons clip coupon prime deals">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2573,7 +2572,7 @@
     </article>
     
 
-    <article id="pc-parts-gpu-lounge" class="deal-card" data-id="pc-parts-gpu-lounge" data-category="Tech &amp; Gadgets" data-platform="Discord" data-members="94100" data-title="PC Hardware &amp; GPU Steals Lounge" data-tags="pc builds gpu storage tech clearance newegg">
+    <article class="deal-card" data-id="pc-parts-gpu-lounge" data-category="Tech &amp; Gadgets" data-platform="Discord" data-members="94100" data-title="PC Hardware &amp; GPU Steals Lounge" data-tags="pc builds gpu storage tech clearance newegg">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-discord"><i class="fab fa-discord"></i> Discord</span>
@@ -2611,7 +2610,7 @@
     </article>
     
 
-    <article id="secret-flying-error-fares" class="deal-card" data-id="secret-flying-error-fares" data-category="Travel &amp; Error Fares" data-platform="Telegram" data-members="167400" data-title="Error Fare &amp; Flight Glitch Watch" data-tags="flights error fares mistake fares travel cheap tickets">
+    <article class="deal-card" data-id="secret-flying-error-fares" data-category="Travel &amp; Error Fares" data-platform="Telegram" data-members="167400" data-title="Error Fare &amp; Flight Glitch Watch" data-tags="flights error fares mistake fares travel cheap tickets">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2649,7 +2648,7 @@
     </article>
     
 
-    <article id="designer-streetwear-steals" class="deal-card" data-id="designer-streetwear-steals" data-category="Fashion &amp; Lifestyle" data-platform="Discord" data-members="78900" data-title="Streetwear &amp; Kicks Deal Syndicate" data-tags="sneakers streetwear apparel nordstrom rack fashion">
+    <article class="deal-card" data-id="designer-streetwear-steals" data-category="Fashion &amp; Lifestyle" data-platform="Discord" data-members="78900" data-title="Streetwear &amp; Kicks Deal Syndicate" data-tags="sneakers streetwear apparel nordstrom rack fashion">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-discord"><i class="fab fa-discord"></i> Discord</span>
@@ -2687,7 +2686,7 @@
     </article>
     
 
-    <article id="reddit-freebies-hauls" class="deal-card" data-id="reddit-freebies-hauls" data-category="Price Glitches &amp; Loot" data-platform="Reddit" data-members="812000" data-title="r/Freebies &amp; Zero-Dollar Hauls" data-tags="freebies zero dollar samples reddit deals giveaways">
+    <article class="deal-card" data-id="reddit-freebies-hauls" data-category="Price Glitches &amp; Loot" data-platform="Reddit" data-members="812000" data-title="r/Freebies &amp; Zero-Dollar Hauls" data-tags="freebies zero dollar samples reddit deals giveaways">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-reddit"><i class="fab fa-reddit-alien"></i> Reddit</span>
@@ -2725,7 +2724,7 @@
     </article>
     
 
-    <article id="prime-shopping-ninja" class="deal-card" data-id="prime-shopping-ninja" data-category="Amazon &amp; E-Commerce" data-platform="WhatsApp" data-members="42000" data-title="Prime Loot &amp; VIP Flash Alerts" data-tags="amazon prime lightning deals flash deals whatsapp deals">
+    <article class="deal-card" data-id="prime-shopping-ninja" data-category="Amazon &amp; E-Commerce" data-platform="WhatsApp" data-members="42000" data-title="Prime Loot &amp; VIP Flash Alerts" data-tags="amazon prime lightning deals flash deals whatsapp deals">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</span>
@@ -2763,7 +2762,7 @@
     </article>
     
 
-    <article id="hardware-swap-refurb" class="deal-card" data-id="hardware-swap-refurb" data-category="Tech &amp; Gadgets" data-platform="Reddit" data-members="1150000" data-title="r/BuildAPCSales &amp; Tech Drops" data-tags="tech pc gaming hardware monitors historic lows">
+    <article class="deal-card" data-id="hardware-swap-refurb" data-category="Tech &amp; Gadgets" data-platform="Reddit" data-members="1150000" data-title="r/BuildAPCSales &amp; Tech Drops" data-tags="tech pc gaming hardware monitors historic lows">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-reddit"><i class="fab fa-reddit-alien"></i> Reddit</span>
@@ -2801,7 +2800,7 @@
     </article>
     
 
-    <article id="luxury-outlet-glitches" class="deal-card" data-id="luxury-outlet-glitches" data-category="Fashion &amp; Lifestyle" data-platform="Telegram" data-members="89400" data-title="Luxury &amp; Designer Outlet Watch" data-tags="luxury designer fragrances outlet sales saks">
+    <article class="deal-card" data-id="luxury-outlet-glitches" data-category="Fashion &amp; Lifestyle" data-platform="Telegram" data-members="89400" data-title="Luxury &amp; Designer Outlet Watch" data-tags="luxury designer fragrances outlet sales saks">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2839,7 +2838,7 @@
     </article>
     
 
-    <article id="mistake-fares-going" class="deal-card" data-id="mistake-fares-going" data-category="Travel &amp; Error Fares" data-platform="Telegram" data-members="134200" data-title="Mistake Fares &amp; Transatlantic Flight Glitches" data-tags="transatlantic airfare travel hacking mistake fare">
+    <article class="deal-card" data-id="mistake-fares-going" data-category="Travel &amp; Error Fares" data-platform="Telegram" data-members="134200" data-title="Mistake Fares &amp; Transatlantic Flight Glitches" data-tags="transatlantic airfare travel hacking mistake fare">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2877,7 +2876,7 @@
     </article>
     
 
-    <article id="loot-freebie-matrix" class="deal-card" data-id="loot-freebie-matrix" data-category="Price Glitches &amp; Loot" data-platform="Discord" data-members="67300" data-title="Loot Matrix &amp; Penny Items Finder" data-tags="penny deals clearance scanning home depot in-store loot">
+    <article class="deal-card" data-id="loot-freebie-matrix" data-category="Price Glitches &amp; Loot" data-platform="Discord" data-members="67300" data-title="Loot Matrix &amp; Penny Items Finder" data-tags="penny deals clearance scanning home depot in-store loot">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-discord"><i class="fab fa-discord"></i> Discord</span>
@@ -2915,7 +2914,7 @@
     </article>
     
 
-    <article id="target-walmart-hidden" class="deal-card" data-id="target-walmart-hidden" data-category="Amazon &amp; E-Commerce" data-platform="Telegram" data-members="112000" data-title="Target &amp; Walmart Clearance Insider" data-tags="target deals walmart rollbacks brickseek clearance">
+    <article class="deal-card" data-id="target-walmart-hidden" data-category="Amazon &amp; E-Commerce" data-platform="Telegram" data-members="112000" data-title="Target &amp; Walmart Clearance Insider" data-tags="target deals walmart rollbacks brickseek clearance">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2953,7 +2952,7 @@
     </article>
     
 
-    <article id="apple-deals-refurb-watch" class="deal-card" data-id="apple-deals-refurb-watch" data-category="Tech &amp; Gadgets" data-platform="Telegram" data-members="98600" data-title="Apple Deals &amp; Refurbished Tracker" data-tags="apple macbook ipad iphone deals refurbished">
+    <article class="deal-card" data-id="apple-deals-refurb-watch" data-category="Tech &amp; Gadgets" data-platform="Telegram" data-members="98600" data-title="Apple Deals &amp; Refurbished Tracker" data-tags="apple macbook ipad iphone deals refurbished">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -2991,7 +2990,7 @@
     </article>
     
 
-    <article id="sneaker-steals-monitor" class="deal-card" data-id="sneaker-steals-monitor" data-category="Fashion &amp; Lifestyle" data-platform="Telegram" data-members="142100" data-title="Sneaker Steals &amp; Under-Retail Alerts" data-tags="sneakers jordan dunks under retail shoe deals">
+    <article class="deal-card" data-id="sneaker-steals-monitor" data-category="Fashion &amp; Lifestyle" data-platform="Telegram" data-members="142100" data-title="Sneaker Steals &amp; Under-Retail Alerts" data-tags="sneakers jordan dunks under retail shoe deals">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -3029,7 +3028,7 @@
     </article>
     
 
-    <article id="points-miles-flight-guild" class="deal-card" data-id="points-miles-flight-guild" data-category="Travel &amp; Error Fares" data-platform="Discord" data-members="58400" data-title="Award Travel, Points &amp; Glitch Guild" data-tags="award flights credit card points travel hacking hyatt">
+    <article class="deal-card" data-id="points-miles-flight-guild" data-category="Travel &amp; Error Fares" data-platform="Discord" data-members="58400" data-title="Award Travel, Points &amp; Glitch Guild" data-tags="award flights credit card points travel hacking hyatt">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-discord"><i class="fab fa-discord"></i> Discord</span>
@@ -3067,7 +3066,7 @@
     </article>
     
 
-    <article id="cashback-stacking-churning" class="deal-card" data-id="cashback-stacking-churning" data-category="Amazon &amp; E-Commerce" data-platform="Reddit" data-members="630000" data-title="r/Churning &amp; Triple Cashback Stacking" data-tags="cashback rakuten credit card offers stacking">
+    <article class="deal-card" data-id="cashback-stacking-churning" data-category="Amazon &amp; E-Commerce" data-platform="Reddit" data-members="630000" data-title="r/Churning &amp; Triple Cashback Stacking" data-tags="cashback rakuten credit card offers stacking">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-reddit"><i class="fab fa-reddit-alien"></i> Reddit</span>
@@ -3105,7 +3104,7 @@
     </article>
     
 
-    <article id="smart-home-iot-bargains" class="deal-card" data-id="smart-home-iot-bargains" data-category="Tech &amp; Gadgets" data-platform="Discord" data-members="46200" data-title="Smart Home, IoT &amp; Audio Steals" data-tags="smart home philips hue robot vacuum home assistant">
+    <article class="deal-card" data-id="smart-home-iot-bargains" data-category="Tech &amp; Gadgets" data-platform="Discord" data-members="46200" data-title="Smart Home, IoT &amp; Audio Steals" data-tags="smart home philips hue robot vacuum home assistant">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-discord"><i class="fab fa-discord"></i> Discord</span>
@@ -3143,7 +3142,7 @@
     </article>
     
 
-    <article id="reddit-coupons-vault" class="deal-card" data-id="reddit-coupons-vault" data-category="Amazon &amp; E-Commerce" data-platform="Reddit" data-members="210000" data-title="r/Coupons &amp; Verified Promo Codes" data-tags="coupons promo codes food coupons free shipping">
+    <article class="deal-card" data-id="reddit-coupons-vault" data-category="Amazon &amp; E-Commerce" data-platform="Reddit" data-members="210000" data-title="r/Coupons &amp; Verified Promo Codes" data-tags="coupons promo codes food coupons free shipping">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-reddit"><i class="fab fa-reddit-alien"></i> Reddit</span>
@@ -3181,7 +3180,7 @@
     </article>
     
 
-    <article id="zero-dollar-pantry-grocery" class="deal-card" data-id="zero-dollar-pantry-grocery" data-category="Price Glitches &amp; Loot" data-platform="WhatsApp" data-members="38500" data-title="Grocery Coupon Stacks &amp; Freebies" data-tags="grocery coupons ibotta free groceries pantry deals">
+    <article class="deal-card" data-id="zero-dollar-pantry-grocery" data-category="Price Glitches &amp; Loot" data-platform="WhatsApp" data-members="38500" data-title="Grocery Coupon Stacks &amp; Freebies" data-tags="grocery coupons ibotta free groceries pantry deals">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</span>
@@ -3219,7 +3218,7 @@
     </article>
     
 
-    <article id="gaming-steals-steam-keys" class="deal-card" data-id="gaming-steals-steam-keys" data-category="Tech &amp; Gadgets" data-platform="Discord" data-members="178000" data-title="Game Deals, Free Steam Keys &amp; Bundles" data-tags="steam keys epic games free games humble bundle gaming">
+    <article class="deal-card" data-id="gaming-steals-steam-keys" data-category="Tech &amp; Gadgets" data-platform="Discord" data-members="178000" data-title="Game Deals, Free Steam Keys &amp; Bundles" data-tags="steam keys epic games free games humble bundle gaming">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-discord"><i class="fab fa-discord"></i> Discord</span>
@@ -3257,7 +3256,7 @@
     </article>
     
 
-    <article id="fast-fashion-clearance-hounds" class="deal-card" data-id="fast-fashion-clearance-hounds" data-category="Fashion &amp; Lifestyle" data-platform="WhatsApp" data-members="35000" data-title="Zara, H&amp;M &amp; ASOS Clearance Hounds" data-tags="zara sale h&amp;m discounts asos clearance wardrobe deals">
+    <article class="deal-card" data-id="fast-fashion-clearance-hounds" data-category="Fashion &amp; Lifestyle" data-platform="WhatsApp" data-members="35000" data-title="Zara, H&amp;M &amp; ASOS Clearance Hounds" data-tags="zara sale h&amp;m discounts asos clearance wardrobe deals">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</span>
@@ -3295,7 +3294,7 @@
     </article>
     
 
-    <article id="cruise-all-inclusive-rates" class="deal-card" data-id="cruise-all-inclusive-rates" data-category="Travel &amp; Error Fares" data-platform="Telegram" data-members="73000" data-title="Cruise Line Glitches &amp; Resort Steals" data-tags="cruises all inclusive caribbean vacation deals">
+    <article class="deal-card" data-id="cruise-all-inclusive-rates" data-category="Travel &amp; Error Fares" data-platform="Telegram" data-members="73000" data-title="Cruise Line Glitches &amp; Resort Steals" data-tags="cruises all inclusive caribbean vacation deals">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -3333,7 +3332,7 @@
     </article>
     
 
-    <article id="bestbuy-microcenter-drops" class="deal-card" data-id="bestbuy-microcenter-drops" data-category="Tech &amp; Gadgets" data-platform="Telegram" data-members="85200" data-title="Best Buy &amp; Tech Open-Box Radar" data-tags="best buy open box tv deals electronics micro center">
+    <article class="deal-card" data-id="bestbuy-microcenter-drops" data-category="Tech &amp; Gadgets" data-platform="Telegram" data-members="85200" data-title="Best Buy &amp; Tech Open-Box Radar" data-tags="best buy open box tv deals electronics micro center">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -3371,7 +3370,7 @@
     </article>
     
 
-    <article id="beauty-cosmetics-stacking" class="deal-card" data-id="beauty-cosmetics-stacking" data-category="Fashion &amp; Lifestyle" data-platform="Telegram" data-members="91200" data-title="Ulta, Sephora &amp; Skincare GWP Stacks" data-tags="ulta sephora skincare gwp cosmetics">
+    <article class="deal-card" data-id="beauty-cosmetics-stacking" data-category="Fashion &amp; Lifestyle" data-platform="Telegram" data-members="91200" data-title="Ulta, Sephora &amp; Skincare GWP Stacks" data-tags="ulta sephora skincare gwp cosmetics">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -3409,7 +3408,7 @@
     </article>
     
 
-    <article id="hotel-glitches-bug-hunters" class="deal-card" data-id="hotel-glitches-bug-hunters" data-category="Travel &amp; Error Fares" data-platform="WhatsApp" data-members="29800" data-title="5-Star Hotel Pricing Bugs &amp; Promo Codes" data-tags="hotels marriott hilton resort bugs travel luxury">
+    <article class="deal-card" data-id="hotel-glitches-bug-hunters" data-category="Travel &amp; Error Fares" data-platform="WhatsApp" data-members="29800" data-title="5-Star Hotel Pricing Bugs &amp; Promo Codes" data-tags="hotels marriott hilton resort bugs travel luxury">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</span>
@@ -3447,7 +3446,7 @@
     </article>
     
 
-    <article id="reddit-deals-syndicate" class="deal-card" data-id="reddit-deals-syndicate" data-category="Amazon &amp; E-Commerce" data-platform="Reddit" data-members="480000" data-title="r/Deals Online Shopping Syndicate" data-tags="general deals shopping home deals subscription sales">
+    <article class="deal-card" data-id="reddit-deals-syndicate" data-category="Amazon &amp; E-Commerce" data-platform="Reddit" data-members="480000" data-title="r/Deals Online Shopping Syndicate" data-tags="general deals shopping home deals subscription sales">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-reddit"><i class="fab fa-reddit-alien"></i> Reddit</span>
@@ -3485,7 +3484,7 @@
     </article>
     
 
-    <article id="homeware-appliance-radar" class="deal-card" data-id="homeware-appliance-radar" data-category="Amazon &amp; E-Commerce" data-platform="Telegram" data-members="61500" data-title="Home Depot, Lowes &amp; Appliance Scraper" data-tags="tools lowes home depot appliances renovation">
+    <article class="deal-card" data-id="homeware-appliance-radar" data-category="Amazon &amp; E-Commerce" data-platform="Telegram" data-members="61500" data-title="Home Depot, Lowes &amp; Appliance Scraper" data-tags="tools lowes home depot appliances renovation">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-telegram"><i class="fab fa-telegram-plane"></i> Telegram</span>
@@ -3523,7 +3522,7 @@
     </article>
     
 
-    <article id="flash-food-dining-bogo" class="deal-card" data-id="flash-food-dining-bogo" data-category="Price Glitches &amp; Loot" data-platform="WhatsApp" data-members="51200" data-title="DoorDash, UberEats &amp; Fast Food Glitches" data-tags="doordash ubereats food coupons bogo free food">
+    <article class="deal-card" data-id="flash-food-dining-bogo" data-category="Price Glitches &amp; Loot" data-platform="WhatsApp" data-members="51200" data-title="DoorDash, UberEats &amp; Fast Food Glitches" data-tags="doordash ubereats food coupons bogo free food">
       <div class="card-header">
         <div class="card-badges">
           <span class="platform-badge badge-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</span>
@@ -3766,7 +3765,7 @@
 
   <!-- Embedded JSON Data for Client-side Search & Filtering -->
   <script id="groups-data" type="application/json">
-    [{"id": "trending-flash-loot-1788580609", "title": "VIP Flash Loot Radar #609", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 65609, "discountRange": "75% - 95% OFF", "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.", "joinUrl": "https://t.me/vipflashloot_609", "tags": ["flash loot", "price error", "clearance", "amazon"], "verified": true, "featured": false, "lastUpdated": "2026-09-05"}, {"id": "trending-flash-loot-1788554244", "title": "VIP Flash Loot Radar #244", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 79244, "discountRange": "75% - 95% OFF", "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.", "joinUrl": "https://t.me/vipflashloot_244", "tags": ["flash loot", "price error", "clearance", "amazon"], "verified": true, "featured": false, "lastUpdated": "2026-09-04"}, {"id": "trending-flash-loot-1788538061", "title": "VIP Flash Loot Radar #61", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 83061, "discountRange": "75% - 95% OFF", "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.", "joinUrl": "https://t.me/vipflashloot_61", "tags": ["flash loot", "price error", "clearance", "amazon"], "verified": true, "featured": false, "lastUpdated": "2026-09-04"}, {"id": "trending-flash-loot-1788519592", "title": "VIP Flash Loot Radar #592", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 84592, "discountRange": "75% - 95% OFF", "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.", "joinUrl": "https://t.me/vipflashloot_592", "tags": ["flash loot", "price error", "clearance", "amazon"], "verified": true, "featured": false, "lastUpdated": "2026-09-04"}, {"id": "trending-flash-loot-1788494381", "title": "VIP Flash Loot Radar #381", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 79381, "discountRange": "75% - 95% OFF", "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.", "joinUrl": "https://t.me/vipflashloot_381", "tags": ["flash loot", "price error", "clearance", "amazon"], "verified": true, "featured": false, "lastUpdated": "2026-09-04"}, {"id": "lego-toy-collector-drops", "title": "LEGO & Rare Collectibles Markdowns", "category": "Tech & Gadgets", "platform": "Reddit", "memberCount": 142000, "discountRange": "25% - 60% OFF", "description": "Alerts for retiring LEGO sets on sale, Target damaged box liquidations, and Amazon surprise coupon drops on Star Wars sets.", "joinUrl": "https://reddit.com/r/legodeals", "tags": ["lego", "star wars lego", "target clearance", "collectibles"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "business-class-points-glitches", "title": "Lie-Flat Business Class Error Rates", "category": "Travel & Error Fares", "platform": "Telegram", "memberCount": 115400, "discountRange": "70% - 90% OFF", "description": "Specialized alerts for sub-$1,200 lie-flat business class transatlantic tickets and unannounced Qatar Qsuite award drops.", "joinUrl": "https://t.me/businessclasserrors", "tags": ["business class", "luxury travel", "qsuite", "airline error"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "luxury-watch-chrono-steals", "title": "Timepiece & Chrono Deal Exchange", "category": "Fashion & Lifestyle", "platform": "Discord", "memberCount": 38100, "discountRange": "30% - 65% OFF", "description": "Authorized dealer discounts on Seiko, Tissot, Hamilton, and pre-owned luxury Swiss watch gray market flash sales.", "joinUrl": "https://discord.gg/watchdeals", "tags": ["watches", "seiko", "tissot", "luxury fashion", "horology"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "costco-clearance-secret-items", "title": "Costco Secret Clearance & .97 Endcaps", "category": "Amazon & E-Commerce", "platform": "Telegram", "memberCount": 128900, "discountRange": "40% - 85% OFF", "description": "Hunters spotting manager markdowns ending in .97 and asterisk items across Costco warehouses nationwide with inventory lookup tips.", "joinUrl": "https://t.me/costcoclearancefinds", "tags": ["costco", "clearance", "97 cent deals", "bulk savings"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "whole-foods-prime-perks", "title": "Whole Foods & Organic Grocery Perks", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 47600, "discountRange": "35% - 70% OFF", "description": "Weekly automated breakdowns of yellow tag sales, Prime member extra 10% stacks, and seasonal organic pantry liquidations.", "joinUrl": "https://t.me/wholefoodsperks", "tags": ["whole foods", "organic", "grocery coupons", "prime discount"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "steam-deck-rog-ally-deals", "title": "Steam Deck & Handheld Gaming Loot", "category": "Tech & Gadgets", "platform": "Discord", "memberCount": 54200, "discountRange": "40% - 75% OFF", "description": "Tracking MicroSD card speed sales, verified Steam Deck OLED discounts, ASUS ROG Ally open-box price cuts, and docks.", "joinUrl": "https://discord.gg/handheldsteals", "tags": ["steam deck", "handheld", "gaming deals", "rog ally"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "glitch-deals-squad", "title": "Glitch & Price Error Alert Squad", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 248500, "discountRange": "80% - 99% OFF", "description": "Ultra-fast automated scraper tracking algorithmic pricing errors, misplaced coupons, and retailer checkout glitches across Amazon, Walmart, and Target before they get patched.", "joinUrl": "https://t.me/glitchdealalerts", "tags": ["price glitch", "price error", "loot", "amazon bugs", "freebies"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "amazon-lightning-stacks", "title": "Amazon Promo Code & Clip Stacker", "category": "Amazon & E-Commerce", "platform": "Telegram", "memberCount": 182300, "discountRange": "50% - 85% OFF", "description": "Curated hidden seller promo codes that stack with on-page coupons and subscribe & save discounts for massive discounts on household items, gadgets, and everyday essentials.", "joinUrl": "https://t.me/amazonpromostacks", "tags": ["amazon", "promo codes", "coupons", "clip coupon", "prime deals"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "pc-parts-gpu-lounge", "title": "PC Hardware & GPU Steals Lounge", "category": "Tech & Gadgets", "platform": "Discord", "memberCount": 94100, "discountRange": "30% - 60% OFF", "description": "Dedicated build alerts, open-box warehouse deals, SSD price drops, graphics card clearance notifications, and combo code stacks from Newegg, Micro Center, and Amazon.", "joinUrl": "https://discord.gg/hardwaredrops", "tags": ["pc builds", "gpu", "storage", "tech clearance", "newegg"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "secret-flying-error-fares", "title": "Error Fare & Flight Glitch Watch", "category": "Travel & Error Fares", "platform": "Telegram", "memberCount": 167400, "discountRange": "60% - 90% OFF", "description": "Instant broadcast channel for airline fuel dumping errors, currency conversion glitches, mistake business class tickets, and flash airfare sales worldwide.", "joinUrl": "https://t.me/errorfareradar", "tags": ["flights", "error fares", "mistake fares", "travel", "cheap tickets"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "designer-streetwear-steals", "title": "Streetwear & Kicks Deal Syndicate", "category": "Fashion & Lifestyle", "platform": "Discord", "memberCount": 78900, "discountRange": "40% - 75% OFF", "description": "Monitors Nike, Adidas, ASOS, SSENSE, and Nordstrom Rack for unannounced markdowns, VIP coupon codes, and clearance restocks with zero resale fluff.", "joinUrl": "https://discord.gg/streetwearsteals", "tags": ["sneakers", "streetwear", "apparel", "nordstrom rack", "fashion"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "reddit-freebies-hauls", "title": "r/Freebies & Zero-Dollar Hauls", "category": "Price Glitches & Loot", "platform": "Reddit", "memberCount": 812000, "discountRange": "100% Free / Freebies", "description": "The largest crowdsourced community testing and sharing 100% free physical merchandise samples, birthday freebies, zero-dollar digital promotions, and magazine subscriptions.", "joinUrl": "https://reddit.com/r/freebies", "tags": ["freebies", "zero dollar", "samples", "reddit deals", "giveaways"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "prime-shopping-ninja", "title": "Prime Loot & VIP Flash Alerts", "category": "Amazon & E-Commerce", "platform": "WhatsApp", "memberCount": 42000, "discountRange": "60% - 90% OFF", "description": "Mobile-first instant WhatsApp group relaying time-sensitive lightning deals, 1-hour flash sales, and prime member exclusive double coupon glitch stacks.", "joinUrl": "https://chat.whatsapp.com/invite/primelootalerts", "tags": ["amazon prime", "lightning deals", "flash deals", "whatsapp deals"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "hardware-swap-refurb", "title": "r/BuildAPCSales & Tech Drops", "category": "Tech & Gadgets", "platform": "Reddit", "memberCount": 1150000, "discountRange": "25% - 70% OFF", "description": "Crowdsourced and strictly moderated tech deals repository vetting monitor price drops, RAM historic lows, power supply discounts, and manufacturer refurbished gems.", "joinUrl": "https://reddit.com/r/buildapcsales", "tags": ["tech", "pc gaming", "hardware", "monitors", "historic lows"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "luxury-outlet-glitches", "title": "Luxury & Designer Outlet Watch", "category": "Fashion & Lifestyle", "platform": "Telegram", "memberCount": 89400, "discountRange": "50% - 80% OFF", "description": "Tracking Saks Fifth Avenue OFF 5TH, Farfetch private sales, Coach Outlet glitch coupons, and luxury fragrance flash clearance discounts before inventory clears.", "joinUrl": "https://t.me/luxuryoutletsteals", "tags": ["luxury", "designer", "fragrances", "outlet sales", "saks"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "mistake-fares-going", "title": "Mistake Fares & Transatlantic Flight Glitches", "category": "Travel & Error Fares", "platform": "Telegram", "memberCount": 134200, "discountRange": "70% - 92% OFF", "description": "Scrapes OTA systems and airline reservation feeds for inadvertent drop-off pricing, mistaken 0-dollar fuel surcharges, and deeply discounted international routing.", "joinUrl": "https://t.me/mistakefaresglobal", "tags": ["transatlantic", "airfare", "travel hacking", "mistake fare"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "loot-freebie-matrix", "title": "Loot Matrix & Penny Items Finder", "category": "Price Glitches & Loot", "platform": "Discord", "memberCount": 67300, "discountRange": "95% - 99% OFF", "description": "Home of penny item hunters, barcode glitch verifiers, and physical clearance store scanning hacks for Home Depot, Dollar General, and Walmart clearance aisles.", "joinUrl": "https://discord.gg/lootmatrix", "tags": ["penny deals", "clearance scanning", "home depot", "in-store loot"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "target-walmart-hidden", "title": "Target & Walmart Clearance Insider", "category": "Amazon & E-Commerce", "platform": "Telegram", "memberCount": 112000, "discountRange": "50% - 90% OFF", "description": "Unlocks hidden UPC clearance reductions, online price matches, rollback glitches, and secret warehouse surplus auctions across big-box retailers.", "joinUrl": "https://t.me/targetwalmartinsider", "tags": ["target deals", "walmart rollbacks", "brickseek", "clearance"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "apple-deals-refurb-watch", "title": "Apple Deals & Refurbished Tracker", "category": "Tech & Gadgets", "platform": "Telegram", "memberCount": 98600, "discountRange": "20% - 50% OFF", "description": "Instant notifications when Apple Certified Refurbished stock drops, Amazon cuts prices on M-series MacBooks and iPads, and authorized resellers drop bundle deals.", "joinUrl": "https://t.me/appledealstracker", "tags": ["apple", "macbook", "ipad", "iphone deals", "refurbished"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "sneaker-steals-monitor", "title": "Sneaker Steals & Under-Retail Alerts", "category": "Fashion & Lifestyle", "platform": "Telegram", "memberCount": 142100, "discountRange": "40% - 70% OFF", "description": "Never pay retail for sneakers. Automated monitors for Foot Locker, Finish Line, JD Sports, and GOAT markdowns with direct checkout links.", "joinUrl": "https://t.me/sneakerstealsdrop", "tags": ["sneakers", "jordan", "dunks", "under retail", "shoe deals"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "points-miles-flight-guild", "title": "Award Travel, Points & Glitch Guild", "category": "Travel & Error Fares", "platform": "Discord", "memberCount": 58400, "discountRange": "75% - 95% OFF", "description": "Elite community decoding credit card point transfer bonuses, award ticket sweetness spots, hotel point valuation hacks, and accidental partner award seat releases.", "joinUrl": "https://discord.gg/awardtravel", "tags": ["award flights", "credit card points", "travel hacking", "hyatt"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "cashback-stacking-churning", "title": "r/Churning & Triple Cashback Stacking", "category": "Amazon & E-Commerce", "platform": "Reddit", "memberCount": 630000, "discountRange": "20% - 60% Effective Savings", "description": "Mastering the art of stacking Rakuten, credit card merchant offers (Amex/Chase offers), coupon extensions, and retailer reward programs for triple-dip savings.", "joinUrl": "https://reddit.com/r/churning", "tags": ["cashback", "rakuten", "credit card offers", "stacking"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "smart-home-iot-bargains", "title": "Smart Home, IoT & Audio Steals", "category": "Tech & Gadgets", "platform": "Discord", "memberCount": 46200, "discountRange": "40% - 75% OFF", "description": "Specialized community tracking price cuts on Zigbee/Matter devices, Philips Hue light kits, Sonos refurbished audio, robot vacuums, and smart security cameras.", "joinUrl": "https://discord.gg/smarthomesteals", "tags": ["smart home", "philips hue", "robot vacuum", "home assistant"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "reddit-coupons-vault", "title": "r/Coupons & Verified Promo Codes", "category": "Amazon & E-Commerce", "platform": "Reddit", "memberCount": 210000, "discountRange": "20% - 50% OFF", "description": "Community-submitted and tested digital promo codes, in-store print coupons, pizza coupons, clothing promo vouchers, and free shipping triggers.", "joinUrl": "https://reddit.com/r/coupons", "tags": ["coupons", "promo codes", "food coupons", "free shipping"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "zero-dollar-pantry-grocery", "title": "Grocery Coupon Stacks & Freebies", "category": "Price Glitches & Loot", "platform": "WhatsApp", "memberCount": 38500, "discountRange": "70% - 100% OFF", "description": "Weekly grocery coupon matchups pairing Ibotta cash rebates, Fetch rewards, digital store coupons, and manufacturer vouchers for near-free pantry hauls.", "joinUrl": "https://chat.whatsapp.com/invite/grocerycouponhacks", "tags": ["grocery coupons", "ibotta", "free groceries", "pantry deals"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "gaming-steals-steam-keys", "title": "Game Deals, Free Steam Keys & Bundles", "category": "Tech & Gadgets", "platform": "Discord", "memberCount": 178000, "discountRange": "50% - 100% OFF", "description": "Alerts for 100% off Epic Games weekly freebies, Steam publisher sale glitches, Humble Bundle gems, GOG giveaways, and PlayStation Plus price cuts.", "joinUrl": "https://discord.gg/gamesteals", "tags": ["steam keys", "epic games", "free games", "humble bundle", "gaming"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "fast-fashion-clearance-hounds", "title": "Zara, H&M & ASOS Clearance Hounds", "category": "Fashion & Lifestyle", "platform": "WhatsApp", "memberCount": 35000, "discountRange": "60% - 85% OFF", "description": "Alerts the exact moment seasonal sales hit final markdowns, secret 20% app-only coupons activate, and return-stock items are added back at rock-bottom prices.", "joinUrl": "https://chat.whatsapp.com/invite/fashionclearancealerts", "tags": ["zara sale", "h&m discounts", "asos clearance", "wardrobe deals"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "cruise-all-inclusive-rates", "title": "Cruise Line Glitches & Resort Steals", "category": "Travel & Error Fares", "platform": "Telegram", "memberCount": 73000, "discountRange": "50% - 80% OFF", "description": "Discovers unadvertised balcony cabin promotions, last-minute repositioning cruises under /night, and luxury Caribbean resort package bugs.", "joinUrl": "https://t.me/cruiseglitchwatch", "tags": ["cruises", "all inclusive", "caribbean", "vacation deals"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "bestbuy-microcenter-drops", "title": "Best Buy & Tech Open-Box Radar", "category": "Tech & Gadgets", "platform": "Telegram", "memberCount": 85200, "discountRange": "35% - 70% OFF", "description": "Real-time scraper for Best Buy Open-Box Excellent pricing drops, TV clearances, Deal of the Day early links, and TotalTech bundle glitches.", "joinUrl": "https://t.me/bestbuytechdrops", "tags": ["best buy", "open box", "tv deals", "electronics", "micro center"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "beauty-cosmetics-stacking", "title": "Ulta, Sephora & Skincare GWP Stacks", "category": "Fashion & Lifestyle", "platform": "Telegram", "memberCount": 91200, "discountRange": "45% - 80% OFF", "description": "Specializes in Gift-With-Purchase (GWP) stacking at Ulta and Sephora, 20% prestige coupons, K-Beauty seasonal clearances, and luxury sample bags.", "joinUrl": "https://t.me/beautystackingdeals", "tags": ["ulta", "sephora", "skincare", "gwp", "cosmetics"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "hotel-glitches-bug-hunters", "title": "5-Star Hotel Pricing Bugs & Promo Codes", "category": "Travel & Error Fares", "platform": "WhatsApp", "memberCount": 29800, "discountRange": "60% - 85% OFF", "description": "Finds misplaced corporate codes, zero-deposit luxury resort errors, and OTA promo stack bugs for Marriott, Hilton, and Hyatt properties globally.", "joinUrl": "https://chat.whatsapp.com/invite/hotelfindersquad", "tags": ["hotels", "marriott", "hilton", "resort bugs", "travel luxury"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "reddit-deals-syndicate", "title": "r/Deals Online Shopping Syndicate", "category": "Amazon & E-Commerce", "platform": "Reddit", "memberCount": 480000, "discountRange": "30% - 80% OFF", "description": "General bargain hunting hub covering verified sales on appliances, power tools, home goods, subscription services, and online shopping portals.", "joinUrl": "https://reddit.com/r/deals", "tags": ["general deals", "shopping", "home deals", "subscription sales"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "homeware-appliance-radar", "title": "Home Depot, Lowes & Appliance Scraper", "category": "Amazon & E-Commerce", "platform": "Telegram", "memberCount": 61500, "discountRange": "50% - 85% OFF", "description": "Tracking yellow-tag clearance items at Lowes and Home Depot, major appliance floor-model blowout pricing, and DeWalt/Milwaukee tool combo deals.", "joinUrl": "https://t.me/homeappliancedrops", "tags": ["tools", "lowes", "home depot", "appliances", "renovation"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "flash-food-dining-bogo", "title": "DoorDash, UberEats & Fast Food Glitches", "category": "Price Glitches & Loot", "platform": "WhatsApp", "memberCount": 51200, "discountRange": "50% - 100% OFF", "description": "Shares daily food delivery promo codes,  off  coupons, BOGO meal glitches, and free fast food app reward glitches that work nationwide.", "joinUrl": "https://chat.whatsapp.com/invite/foodpromoglitches", "tags": ["doordash", "ubereats", "food coupons", "bogo", "free food"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}]
+    [{"id": "trending-flash-loot-1788603722", "title": "VIP Flash Loot Radar #722", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 68722, "discountRange": "75% - 95% OFF", "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.", "joinUrl": "https://t.me/vipflashloot_722", "tags": ["flash loot", "price error", "clearance", "amazon"], "verified": true, "featured": false, "lastUpdated": "2026-09-05"}, {"id": "trending-flash-loot-1788580609", "title": "VIP Flash Loot Radar #609", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 65609, "discountRange": "75% - 95% OFF", "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.", "joinUrl": "https://t.me/vipflashloot_609", "tags": ["flash loot", "price error", "clearance", "amazon"], "verified": true, "featured": false, "lastUpdated": "2026-09-05"}, {"id": "trending-flash-loot-1788554244", "title": "VIP Flash Loot Radar #244", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 79244, "discountRange": "75% - 95% OFF", "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.", "joinUrl": "https://t.me/vipflashloot_244", "tags": ["flash loot", "price error", "clearance", "amazon"], "verified": true, "featured": false, "lastUpdated": "2026-09-04"}, {"id": "trending-flash-loot-1788538061", "title": "VIP Flash Loot Radar #61", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 83061, "discountRange": "75% - 95% OFF", "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.", "joinUrl": "https://t.me/vipflashloot_61", "tags": ["flash loot", "price error", "clearance", "amazon"], "verified": true, "featured": false, "lastUpdated": "2026-09-04"}, {"id": "trending-flash-loot-1788519592", "title": "VIP Flash Loot Radar #592", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 84592, "discountRange": "75% - 95% OFF", "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.", "joinUrl": "https://t.me/vipflashloot_592", "tags": ["flash loot", "price error", "clearance", "amazon"], "verified": true, "featured": false, "lastUpdated": "2026-09-04"}, {"id": "trending-flash-loot-1788494381", "title": "VIP Flash Loot Radar #381", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 79381, "discountRange": "75% - 95% OFF", "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.", "joinUrl": "https://t.me/vipflashloot_381", "tags": ["flash loot", "price error", "clearance", "amazon"], "verified": true, "featured": false, "lastUpdated": "2026-09-04"}, {"id": "lego-toy-collector-drops", "title": "LEGO & Rare Collectibles Markdowns", "category": "Tech & Gadgets", "platform": "Reddit", "memberCount": 142000, "discountRange": "25% - 60% OFF", "description": "Alerts for retiring LEGO sets on sale, Target damaged box liquidations, and Amazon surprise coupon drops on Star Wars sets.", "joinUrl": "https://reddit.com/r/legodeals", "tags": ["lego", "star wars lego", "target clearance", "collectibles"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "business-class-points-glitches", "title": "Lie-Flat Business Class Error Rates", "category": "Travel & Error Fares", "platform": "Telegram", "memberCount": 115400, "discountRange": "70% - 90% OFF", "description": "Specialized alerts for sub-$1,200 lie-flat business class transatlantic tickets and unannounced Qatar Qsuite award drops.", "joinUrl": "https://t.me/businessclasserrors", "tags": ["business class", "luxury travel", "qsuite", "airline error"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "luxury-watch-chrono-steals", "title": "Timepiece & Chrono Deal Exchange", "category": "Fashion & Lifestyle", "platform": "Discord", "memberCount": 38100, "discountRange": "30% - 65% OFF", "description": "Authorized dealer discounts on Seiko, Tissot, Hamilton, and pre-owned luxury Swiss watch gray market flash sales.", "joinUrl": "https://discord.gg/watchdeals", "tags": ["watches", "seiko", "tissot", "luxury fashion", "horology"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "costco-clearance-secret-items", "title": "Costco Secret Clearance & .97 Endcaps", "category": "Amazon & E-Commerce", "platform": "Telegram", "memberCount": 128900, "discountRange": "40% - 85% OFF", "description": "Hunters spotting manager markdowns ending in .97 and asterisk items across Costco warehouses nationwide with inventory lookup tips.", "joinUrl": "https://t.me/costcoclearancefinds", "tags": ["costco", "clearance", "97 cent deals", "bulk savings"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "whole-foods-prime-perks", "title": "Whole Foods & Organic Grocery Perks", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 47600, "discountRange": "35% - 70% OFF", "description": "Weekly automated breakdowns of yellow tag sales, Prime member extra 10% stacks, and seasonal organic pantry liquidations.", "joinUrl": "https://t.me/wholefoodsperks", "tags": ["whole foods", "organic", "grocery coupons", "prime discount"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "steam-deck-rog-ally-deals", "title": "Steam Deck & Handheld Gaming Loot", "category": "Tech & Gadgets", "platform": "Discord", "memberCount": 54200, "discountRange": "40% - 75% OFF", "description": "Tracking MicroSD card speed sales, verified Steam Deck OLED discounts, ASUS ROG Ally open-box price cuts, and docks.", "joinUrl": "https://discord.gg/handheldsteals", "tags": ["steam deck", "handheld", "gaming deals", "rog ally"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "glitch-deals-squad", "title": "Glitch & Price Error Alert Squad", "category": "Price Glitches & Loot", "platform": "Telegram", "memberCount": 248500, "discountRange": "80% - 99% OFF", "description": "Ultra-fast automated scraper tracking algorithmic pricing errors, misplaced coupons, and retailer checkout glitches across Amazon, Walmart, and Target before they get patched.", "joinUrl": "https://t.me/glitchdealalerts", "tags": ["price glitch", "price error", "loot", "amazon bugs", "freebies"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "amazon-lightning-stacks", "title": "Amazon Promo Code & Clip Stacker", "category": "Amazon & E-Commerce", "platform": "Telegram", "memberCount": 182300, "discountRange": "50% - 85% OFF", "description": "Curated hidden seller promo codes that stack with on-page coupons and subscribe & save discounts for massive discounts on household items, gadgets, and everyday essentials.", "joinUrl": "https://t.me/amazonpromostacks", "tags": ["amazon", "promo codes", "coupons", "clip coupon", "prime deals"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "pc-parts-gpu-lounge", "title": "PC Hardware & GPU Steals Lounge", "category": "Tech & Gadgets", "platform": "Discord", "memberCount": 94100, "discountRange": "30% - 60% OFF", "description": "Dedicated build alerts, open-box warehouse deals, SSD price drops, graphics card clearance notifications, and combo code stacks from Newegg, Micro Center, and Amazon.", "joinUrl": "https://discord.gg/hardwaredrops", "tags": ["pc builds", "gpu", "storage", "tech clearance", "newegg"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "secret-flying-error-fares", "title": "Error Fare & Flight Glitch Watch", "category": "Travel & Error Fares", "platform": "Telegram", "memberCount": 167400, "discountRange": "60% - 90% OFF", "description": "Instant broadcast channel for airline fuel dumping errors, currency conversion glitches, mistake business class tickets, and flash airfare sales worldwide.", "joinUrl": "https://t.me/errorfareradar", "tags": ["flights", "error fares", "mistake fares", "travel", "cheap tickets"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "designer-streetwear-steals", "title": "Streetwear & Kicks Deal Syndicate", "category": "Fashion & Lifestyle", "platform": "Discord", "memberCount": 78900, "discountRange": "40% - 75% OFF", "description": "Monitors Nike, Adidas, ASOS, SSENSE, and Nordstrom Rack for unannounced markdowns, VIP coupon codes, and clearance restocks with zero resale fluff.", "joinUrl": "https://discord.gg/streetwearsteals", "tags": ["sneakers", "streetwear", "apparel", "nordstrom rack", "fashion"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "reddit-freebies-hauls", "title": "r/Freebies & Zero-Dollar Hauls", "category": "Price Glitches & Loot", "platform": "Reddit", "memberCount": 812000, "discountRange": "100% Free / Freebies", "description": "The largest crowdsourced community testing and sharing 100% free physical merchandise samples, birthday freebies, zero-dollar digital promotions, and magazine subscriptions.", "joinUrl": "https://reddit.com/r/freebies", "tags": ["freebies", "zero dollar", "samples", "reddit deals", "giveaways"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "prime-shopping-ninja", "title": "Prime Loot & VIP Flash Alerts", "category": "Amazon & E-Commerce", "platform": "WhatsApp", "memberCount": 42000, "discountRange": "60% - 90% OFF", "description": "Mobile-first instant WhatsApp group relaying time-sensitive lightning deals, 1-hour flash sales, and prime member exclusive double coupon glitch stacks.", "joinUrl": "https://chat.whatsapp.com/invite/primelootalerts", "tags": ["amazon prime", "lightning deals", "flash deals", "whatsapp deals"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "hardware-swap-refurb", "title": "r/BuildAPCSales & Tech Drops", "category": "Tech & Gadgets", "platform": "Reddit", "memberCount": 1150000, "discountRange": "25% - 70% OFF", "description": "Crowdsourced and strictly moderated tech deals repository vetting monitor price drops, RAM historic lows, power supply discounts, and manufacturer refurbished gems.", "joinUrl": "https://reddit.com/r/buildapcsales", "tags": ["tech", "pc gaming", "hardware", "monitors", "historic lows"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "luxury-outlet-glitches", "title": "Luxury & Designer Outlet Watch", "category": "Fashion & Lifestyle", "platform": "Telegram", "memberCount": 89400, "discountRange": "50% - 80% OFF", "description": "Tracking Saks Fifth Avenue OFF 5TH, Farfetch private sales, Coach Outlet glitch coupons, and luxury fragrance flash clearance discounts before inventory clears.", "joinUrl": "https://t.me/luxuryoutletsteals", "tags": ["luxury", "designer", "fragrances", "outlet sales", "saks"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "mistake-fares-going", "title": "Mistake Fares & Transatlantic Flight Glitches", "category": "Travel & Error Fares", "platform": "Telegram", "memberCount": 134200, "discountRange": "70% - 92% OFF", "description": "Scrapes OTA systems and airline reservation feeds for inadvertent drop-off pricing, mistaken 0-dollar fuel surcharges, and deeply discounted international routing.", "joinUrl": "https://t.me/mistakefaresglobal", "tags": ["transatlantic", "airfare", "travel hacking", "mistake fare"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "loot-freebie-matrix", "title": "Loot Matrix & Penny Items Finder", "category": "Price Glitches & Loot", "platform": "Discord", "memberCount": 67300, "discountRange": "95% - 99% OFF", "description": "Home of penny item hunters, barcode glitch verifiers, and physical clearance store scanning hacks for Home Depot, Dollar General, and Walmart clearance aisles.", "joinUrl": "https://discord.gg/lootmatrix", "tags": ["penny deals", "clearance scanning", "home depot", "in-store loot"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "target-walmart-hidden", "title": "Target & Walmart Clearance Insider", "category": "Amazon & E-Commerce", "platform": "Telegram", "memberCount": 112000, "discountRange": "50% - 90% OFF", "description": "Unlocks hidden UPC clearance reductions, online price matches, rollback glitches, and secret warehouse surplus auctions across big-box retailers.", "joinUrl": "https://t.me/targetwalmartinsider", "tags": ["target deals", "walmart rollbacks", "brickseek", "clearance"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "apple-deals-refurb-watch", "title": "Apple Deals & Refurbished Tracker", "category": "Tech & Gadgets", "platform": "Telegram", "memberCount": 98600, "discountRange": "20% - 50% OFF", "description": "Instant notifications when Apple Certified Refurbished stock drops, Amazon cuts prices on M-series MacBooks and iPads, and authorized resellers drop bundle deals.", "joinUrl": "https://t.me/appledealstracker", "tags": ["apple", "macbook", "ipad", "iphone deals", "refurbished"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "sneaker-steals-monitor", "title": "Sneaker Steals & Under-Retail Alerts", "category": "Fashion & Lifestyle", "platform": "Telegram", "memberCount": 142100, "discountRange": "40% - 70% OFF", "description": "Never pay retail for sneakers. Automated monitors for Foot Locker, Finish Line, JD Sports, and GOAT markdowns with direct checkout links.", "joinUrl": "https://t.me/sneakerstealsdrop", "tags": ["sneakers", "jordan", "dunks", "under retail", "shoe deals"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "points-miles-flight-guild", "title": "Award Travel, Points & Glitch Guild", "category": "Travel & Error Fares", "platform": "Discord", "memberCount": 58400, "discountRange": "75% - 95% OFF", "description": "Elite community decoding credit card point transfer bonuses, award ticket sweetness spots, hotel point valuation hacks, and accidental partner award seat releases.", "joinUrl": "https://discord.gg/awardtravel", "tags": ["award flights", "credit card points", "travel hacking", "hyatt"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "cashback-stacking-churning", "title": "r/Churning & Triple Cashback Stacking", "category": "Amazon & E-Commerce", "platform": "Reddit", "memberCount": 630000, "discountRange": "20% - 60% Effective Savings", "description": "Mastering the art of stacking Rakuten, credit card merchant offers (Amex/Chase offers), coupon extensions, and retailer reward programs for triple-dip savings.", "joinUrl": "https://reddit.com/r/churning", "tags": ["cashback", "rakuten", "credit card offers", "stacking"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "smart-home-iot-bargains", "title": "Smart Home, IoT & Audio Steals", "category": "Tech & Gadgets", "platform": "Discord", "memberCount": 46200, "discountRange": "40% - 75% OFF", "description": "Specialized community tracking price cuts on Zigbee/Matter devices, Philips Hue light kits, Sonos refurbished audio, robot vacuums, and smart security cameras.", "joinUrl": "https://discord.gg/smarthomesteals", "tags": ["smart home", "philips hue", "robot vacuum", "home assistant"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "reddit-coupons-vault", "title": "r/Coupons & Verified Promo Codes", "category": "Amazon & E-Commerce", "platform": "Reddit", "memberCount": 210000, "discountRange": "20% - 50% OFF", "description": "Community-submitted and tested digital promo codes, in-store print coupons, pizza coupons, clothing promo vouchers, and free shipping triggers.", "joinUrl": "https://reddit.com/r/coupons", "tags": ["coupons", "promo codes", "food coupons", "free shipping"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "zero-dollar-pantry-grocery", "title": "Grocery Coupon Stacks & Freebies", "category": "Price Glitches & Loot", "platform": "WhatsApp", "memberCount": 38500, "discountRange": "70% - 100% OFF", "description": "Weekly grocery coupon matchups pairing Ibotta cash rebates, Fetch rewards, digital store coupons, and manufacturer vouchers for near-free pantry hauls.", "joinUrl": "https://chat.whatsapp.com/invite/grocerycouponhacks", "tags": ["grocery coupons", "ibotta", "free groceries", "pantry deals"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "gaming-steals-steam-keys", "title": "Game Deals, Free Steam Keys & Bundles", "category": "Tech & Gadgets", "platform": "Discord", "memberCount": 178000, "discountRange": "50% - 100% OFF", "description": "Alerts for 100% off Epic Games weekly freebies, Steam publisher sale glitches, Humble Bundle gems, GOG giveaways, and PlayStation Plus price cuts.", "joinUrl": "https://discord.gg/gamesteals", "tags": ["steam keys", "epic games", "free games", "humble bundle", "gaming"], "verified": true, "featured": true, "lastUpdated": "2026-09-03"}, {"id": "fast-fashion-clearance-hounds", "title": "Zara, H&M & ASOS Clearance Hounds", "category": "Fashion & Lifestyle", "platform": "WhatsApp", "memberCount": 35000, "discountRange": "60% - 85% OFF", "description": "Alerts the exact moment seasonal sales hit final markdowns, secret 20% app-only coupons activate, and return-stock items are added back at rock-bottom prices.", "joinUrl": "https://chat.whatsapp.com/invite/fashionclearancealerts", "tags": ["zara sale", "h&m discounts", "asos clearance", "wardrobe deals"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "cruise-all-inclusive-rates", "title": "Cruise Line Glitches & Resort Steals", "category": "Travel & Error Fares", "platform": "Telegram", "memberCount": 73000, "discountRange": "50% - 80% OFF", "description": "Discovers unadvertised balcony cabin promotions, last-minute repositioning cruises under /night, and luxury Caribbean resort package bugs.", "joinUrl": "https://t.me/cruiseglitchwatch", "tags": ["cruises", "all inclusive", "caribbean", "vacation deals"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "bestbuy-microcenter-drops", "title": "Best Buy & Tech Open-Box Radar", "category": "Tech & Gadgets", "platform": "Telegram", "memberCount": 85200, "discountRange": "35% - 70% OFF", "description": "Real-time scraper for Best Buy Open-Box Excellent pricing drops, TV clearances, Deal of the Day early links, and TotalTech bundle glitches.", "joinUrl": "https://t.me/bestbuytechdrops", "tags": ["best buy", "open box", "tv deals", "electronics", "micro center"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "beauty-cosmetics-stacking", "title": "Ulta, Sephora & Skincare GWP Stacks", "category": "Fashion & Lifestyle", "platform": "Telegram", "memberCount": 91200, "discountRange": "45% - 80% OFF", "description": "Specializes in Gift-With-Purchase (GWP) stacking at Ulta and Sephora, 20% prestige coupons, K-Beauty seasonal clearances, and luxury sample bags.", "joinUrl": "https://t.me/beautystackingdeals", "tags": ["ulta", "sephora", "skincare", "gwp", "cosmetics"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "hotel-glitches-bug-hunters", "title": "5-Star Hotel Pricing Bugs & Promo Codes", "category": "Travel & Error Fares", "platform": "WhatsApp", "memberCount": 29800, "discountRange": "60% - 85% OFF", "description": "Finds misplaced corporate codes, zero-deposit luxury resort errors, and OTA promo stack bugs for Marriott, Hilton, and Hyatt properties globally.", "joinUrl": "https://chat.whatsapp.com/invite/hotelfindersquad", "tags": ["hotels", "marriott", "hilton", "resort bugs", "travel luxury"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "reddit-deals-syndicate", "title": "r/Deals Online Shopping Syndicate", "category": "Amazon & E-Commerce", "platform": "Reddit", "memberCount": 480000, "discountRange": "30% - 80% OFF", "description": "General bargain hunting hub covering verified sales on appliances, power tools, home goods, subscription services, and online shopping portals.", "joinUrl": "https://reddit.com/r/deals", "tags": ["general deals", "shopping", "home deals", "subscription sales"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "homeware-appliance-radar", "title": "Home Depot, Lowes & Appliance Scraper", "category": "Amazon & E-Commerce", "platform": "Telegram", "memberCount": 61500, "discountRange": "50% - 85% OFF", "description": "Tracking yellow-tag clearance items at Lowes and Home Depot, major appliance floor-model blowout pricing, and DeWalt/Milwaukee tool combo deals.", "joinUrl": "https://t.me/homeappliancedrops", "tags": ["tools", "lowes", "home depot", "appliances", "renovation"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}, {"id": "flash-food-dining-bogo", "title": "DoorDash, UberEats & Fast Food Glitches", "category": "Price Glitches & Loot", "platform": "WhatsApp", "memberCount": 51200, "discountRange": "50% - 100% OFF", "description": "Shares daily food delivery promo codes,  off  coupons, BOGO meal glitches, and free fast food app reward glitches that work nationwide.", "joinUrl": "https://chat.whatsapp.com/invite/foodpromoglitches", "tags": ["doordash", "ubereats", "food coupons", "bogo", "free food"], "verified": true, "featured": false, "lastUpdated": "2026-09-03"}]
   </script>
 
   <!-- Interactive Client-side Script -->
