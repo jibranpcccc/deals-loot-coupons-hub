@@ -920,6 +920,7 @@
       align-items: center;
       gap: 8px;
       transition: all 0.2s ease;
+      min-height: 44px;
     }
 
     .btn-platform:hover {
@@ -974,12 +975,16 @@
       background: transparent;
       border: 1px solid var(--border-subtle);
       color: var(--text-muted);
-      padding: 7px 15px;
+      padding: 8px 16px;
       border-radius: var(--radius-full);
       font-size: 0.84rem;
       font-weight: 500;
       cursor: pointer;
       transition: all 0.2s ease;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .pill-category:hover {
@@ -1297,6 +1302,8 @@
       align-items: center;
       gap: 6px;
       transition: all 0.2s ease;
+      min-height: 44px;
+      justify-content: center;
     }
 
     .btn-copy-invite:hover {
@@ -1359,6 +1366,8 @@
       gap: 8px;
       transition: all 0.2s ease;
       box-shadow: 0 4px 12px rgba(234, 88, 12, 0.35);
+      min-height: 44px;
+      justify-content: center;
     }
 
     .btn-claim:hover {
@@ -1763,6 +1772,54 @@
       font-size: 0.8rem;
     }
 
+    /* Mobile Action Dock */
+    .mobile-dock {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(9, 13, 22, 0.95);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-top: 1px solid var(--border-subtle);
+      padding: 10px 14px;
+      padding-bottom: max(10px, env(safe-area-inset-bottom));
+      z-index: 9999;
+      gap: 8px;
+    }
+    .dock-btn {
+      flex: 1;
+      padding: 10px 8px;
+      border-radius: var(--radius-sm);
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 0.82rem;
+      cursor: pointer;
+      text-align: center;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+    .dock-btn:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+    .dock-btn-accent {
+      background: var(--accent-orange);
+      color: #ffffff;
+      border-color: var(--accent-orange);
+      font-weight: 700;
+    }
+    .dock-btn-accent:hover {
+      background: #ea580c;
+    }
+
     /* Responsive Breakpoints */
     @media (max-width: 900px) {
       .hero-title { font-size: 2.3rem; }
@@ -1771,12 +1828,25 @@
       .deals-grid { grid-template-columns: 1fr; }
     }
 
+    @media (max-width: 768px) {
+      .mobile-dock { display: flex; }
+      body { padding-bottom: 90px; }
+    }
+
     @media (max-width: 600px) {
       .hero-title { font-size: 1.85rem; }
       .stats-row { grid-template-columns: 1fr; padding: 16px; }
       .navbar-container { flex-direction: column; align-items: stretch; }
       .nav-actions { justify-content: space-between; }
       .filter-panel { padding: 16px; }
+    }
+
+    @media (max-width: 480px) {
+      .main-content { padding: 20px 14px 90px; }
+      .deal-card { padding: 18px 14px; }
+      .hero-title { font-size: 1.7rem; }
+      .card-actions { width: 100%; flex-wrap: wrap; }
+      .btn-copy-invite, .btn-claim { flex: 1; min-width: 130px; justify-content: center; }
     }
   </style>
 </head>
@@ -1813,6 +1883,14 @@
       <div class="hero-badge"><i class="fas fa-bolt"></i> 100% Free & Community-Vetted</div>
       <h2 class="hero-title">The Master Directory of Verified Deal, Glitch & Coupon Communities</h2>
       <p class="hero-subtitle">Stop paying retail. Access the most secretive Telegram channels, Discord servers, and coupon groups sharing real-time price errors, hidden Amazon promo codes, and mistake airfares before they get patched.</p>
+
+      <!-- Hero Platform Stat Pills -->
+      <div class="stat-pills-row" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 32px;">
+        <span class="stat-pill" style="background: rgba(255,87,34,0.12); border: 1px solid rgba(255,87,34,0.35); padding: 7px 16px; border-radius: 9999px; font-size: 0.84rem; color: #ff8a65; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;"><i class="fas fa-chart-simple"></i> <strong>44+</strong> Deal Channels</span>
+        <span class="stat-pill" style="background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.35); padding: 7px 16px; border-radius: 9999px; font-size: 0.84rem; color: #fbbf24; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;"><i class="fas fa-bolt"></i> <strong>100%</strong> Free Public Entry</span>
+        <span class="stat-pill" style="background: rgba(16,185,129,0.12); border: 1px solid rgba(16,185,129,0.35); padding: 7px 16px; border-radius: 9999px; font-size: 0.84rem; color: #34d399; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;"><i class="fas fa-shield-halved"></i> <strong>Active</strong> Scam &amp; Spam Filtering</span>
+        <span class="stat-pill" style="background: rgba(56,189,248,0.12); border: 1px solid rgba(56,189,248,0.35); padding: 7px 16px; border-radius: 9999px; font-size: 0.84rem; color: #38bdf8; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;"><i class="fas fa-rotate"></i> <strong>24h</strong> Liveness Sweeps</span>
+      </div>
 
       <!-- Stats Row -->
       <div class="stats-row">
@@ -4489,8 +4567,8 @@
 
     function copyInviteLink(url, btn) {
       if (!url) return;
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(url).then(() => {
+      function setCopied() {
+        if (btn) {
           const orig = btn.innerHTML;
           btn.innerHTML = '<i class="fas fa-check"></i> ✓ Copied!';
           btn.classList.add('copied');
@@ -4498,7 +4576,41 @@
             btn.innerHTML = orig;
             btn.classList.remove('copied');
           }, 2000);
+        }
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(() => {
+          setCopied();
+        }).catch(() => {
+          fallbackCopyText(url, setCopied);
         });
+      } else {
+        fallbackCopyText(url, setCopied);
+      }
+    }
+
+    function fallbackCopyText(text, callback) {
+      const textArea = document.createElement('textarea');
+      textArea.value = text;
+      textArea.style.position = 'fixed';
+      textArea.style.opacity = '0';
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      try {
+        document.execCommand('copy');
+        if (callback) callback();
+      } catch (err) {
+        window.open(text, '_blank');
+      }
+      document.body.removeChild(textArea);
+    }
+
+    function focusSearch() {
+      const searchInput = document.getElementById('search-input');
+      if (searchInput) {
+        searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => searchInput.focus(), 350);
       }
     }
 
@@ -4511,9 +4623,8 @@
           searchInput.scrollIntoView({ behavior: "smooth", block: "center" });
         }
       } else if (e.key === "Escape" && document.activeElement === searchInput) {
-        searchInput.value = "";
+        clearSearch();
         searchInput.blur();
-        filterAndRender();
       }
     });
   </script>
