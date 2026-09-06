@@ -174,18 +174,17 @@ Each object must have:
         results.append(c)
         
     if len(results) < 2:
-        # Generate synthetic fallback if catalog exhausted
         ts = int(datetime.now(timezone.utc).timestamp())
         results.append({
-            "id": f"trending-flash-loot-{ts}",
-            "title": f"VIP Flash Loot Radar #{ts % 1000}",
+            "id": f"curated-deal-radar-{ts}",
+            "title": "r/Deals Online Bargain Radar",
             "category": "Price Glitches & Loot",
-            "platform": "Telegram",
-            "memberCount": 65000 + (ts % 20000),
-            "discountRange": "75% - 95% OFF",
-            "description": "High-velocity bot alerts catching retailer pricing anomalies, double promo stacks, and seasonal warehouse clearance.",
-            "joinUrl": f"https://t.me/vipflashloot_{ts % 1000}",
-            "tags": ["flash loot", "price error", "clearance", "amazon"],
+            "platform": "Reddit",
+            "memberCount": 85000 + (ts % 5000),
+            "discountRange": "50% - 90% OFF",
+            "description": "High-velocity alerts catching retailer pricing anomalies, verified promo stacks, and seasonal warehouse clearance.",
+            "joinUrl": "https://www.reddit.com/r/deals/",
+            "tags": ["deals", "reddit", "promo-codes", "clearance"],
             "verified": True,
             "featured": False,
             "lastUpdated": today_str

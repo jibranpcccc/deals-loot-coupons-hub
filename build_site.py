@@ -74,13 +74,8 @@ def render_card_html(g):
           <span class="status-text">Active • Updated {html.escape(g.get('lastUpdated', 'Recently'))}</span>
         </div>
         <div class="card-actions">
-          <button type="button" class="btn-copy-invite" onclick="copyInviteLink('{html.escape(g['joinUrl'])}', this)" title="Copy direct invite link">
-            <i class="fas fa-copy"></i> 📋 Copy Link
-          </button>
-          <a href="{html.escape(g['joinUrl'])}" target="_blank" rel="noopener noreferrer" class="btn-claim">
-            <span>Claim Deals</span>
-            <i class="fas fa-arrow-up-right-from-square"></i>
-          </a>
+          <button type="button" class="btn-copy-invite" onclick="copyInviteLink(event, '{html.escape(g['joinUrl'])}')">📋 Copy Invite Link</button>
+          <a href="{html.escape(g['joinUrl'])}" target="_blank" rel="noopener noreferrer" class="btn-claim btn-join">Join Community →</a>
         </div>
       </div>
     </article>
@@ -2074,18 +2069,32 @@ def generate_index_html(groups):
       e.target.reset();
     }}
 
-    function copyInviteLink(url, btn) {{
-      if (!url) return;
-      if (navigator.clipboard) {{
-        navigator.clipboard.writeText(url).then(() => {{
-          const orig = btn.innerHTML;
-          btn.innerHTML = '<i class="fas fa-check"></i> ✓ Copied!';
-          btn.classList.add('copied');
-          setTimeout(() => {{
-            btn.innerHTML = orig;
-            btn.classList.remove('copied');
-          }}, 2000);
+    function copyInviteLink(event, url) {{
+      if (event && event.preventDefault) event.preventDefault();
+      if (event && event.stopPropagation) event.stopPropagation();
+      var targetUrl = (typeof event === 'string') ? event : url;
+      var btn = (typeof event === 'string') ? url : (event ? (event.currentTarget || event.target) : null);
+      if (!btn && typeof this !== 'undefined') btn = this;
+      if (btn && btn.closest) {{
+        btn = btn.closest('.btn-copy-invite') || btn;
+      }}
+      if (!targetUrl) return;
+      if (navigator.clipboard && navigator.clipboard.writeText) {{
+        navigator.clipboard.writeText(targetUrl).then(function() {{
+          if (btn) {{
+            const orig = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> ✓ Copied!';
+            btn.classList.add('copied');
+            setTimeout(() => {{
+              btn.innerHTML = orig;
+              btn.classList.remove('copied');
+            }}, 2000);
+          }}
+        }}).catch(function() {{
+          window.open(targetUrl, '_blank');
         }});
+      }} else {{
+        window.open(targetUrl, '_blank');
       }}
     }}
 
