@@ -1,5 +1,24 @@
 [
   {
+    "id": "curated-deal-radar-1788865213",
+    "title": "r/Deals Online Bargain Radar",
+    "category": "Price Glitches & Loot",
+    "platform": "Reddit",
+    "memberCount": 85213,
+    "discountRange": "50% - 90% OFF",
+    "description": "High-velocity alerts catching retailer pricing anomalies, verified promo stacks, and seasonal warehouse clearance.",
+    "joinUrl": "https://www.reddit.com/r/deals/",
+    "tags": [
+      "deals",
+      "reddit",
+      "promo-codes",
+      "clearance"
+    ],
+    "verified": true,
+    "featured": false,
+    "lastUpdated": "2026-09-08"
+  },
+  {
     "id": "curated-deal-radar-1788840252",
     "title": "r/Deals Online Bargain Radar",
     "category": "Price Glitches & Loot",
