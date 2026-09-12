@@ -1,41 +1,22 @@
 [
   {
-    "id": "curated-deal-radar-1789186023",
-    "title": "r/Deals Online Bargain Radar",
-    "category": "Price Glitches & Loot",
+    "id": "deals-loot-coupons-hub-reddit-20260912-1",
+    "title": "r/fulfillmentbyamazon Sellers",
     "platform": "Reddit",
-    "memberCount": 86023,
-    "discountRange": "50% - 90% OFF",
-    "description": "High-velocity alerts catching retailer pricing anomalies, verified promo stacks, and seasonal warehouse clearance.",
-    "joinUrl": "https://www.reddit.com/r/deals/",
+    "category": "Amazon FBA",
+    "memberCount": "130,000+ members",
+    "description": "Advanced Amazon seller discussions covering private labeling, PPC bids, logistics, and Amazon brand registry.",
+    "joinUrl": "https://www.reddit.com/r/fulfillmentbyamazon/",
     "tags": [
-      "deals",
-      "reddit",
-      "promo-codes",
-      "clearance"
+      "amazon-fba",
+      "ecommerce",
+      "selling",
+      "reddit"
     ],
     "verified": true,
-    "featured": false,
+    "featured": true,
+    "isTodaysPick": true,
     "lastUpdated": "2026-09-12"
-  },
-  {
-    "id": "curated-deal-radar-1789159677",
-    "title": "r/Deals Online Bargain Radar",
-    "category": "Price Glitches & Loot",
-    "platform": "Reddit",
-    "memberCount": 89677,
-    "discountRange": "50% - 90% OFF",
-    "description": "High-velocity alerts catching retailer pricing anomalies, verified promo stacks, and seasonal warehouse clearance.",
-    "joinUrl": "https://www.reddit.com/r/deals/",
-    "tags": [
-      "deals",
-      "reddit",
-      "promo-codes",
-      "clearance"
-    ],
-    "verified": true,
-    "featured": false,
-    "lastUpdated": "2026-09-11"
   },
   {
     "id": "curated-deal-radar-1789143323",
@@ -54,7 +35,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-11",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1789124373",
@@ -73,7 +55,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-11",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1789099624",
@@ -92,7 +75,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-11"
+    "lastUpdated": "2026-09-11",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1789072942",
@@ -111,7 +95,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-10",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1789056721",
@@ -130,7 +115,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-10",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1789038074",
@@ -149,7 +135,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-10",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1789013293",
@@ -168,7 +155,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-10"
+    "lastUpdated": "2026-09-10",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788986838",
@@ -187,7 +175,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-09",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788970892",
@@ -206,7 +195,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-09",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788951896",
@@ -225,7 +215,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-09",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788927064",
@@ -244,7 +235,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-09"
+    "lastUpdated": "2026-09-09",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788901140",
@@ -263,7 +255,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-08",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788884720",
@@ -282,7 +275,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-08",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788865213",
@@ -301,7 +295,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-08",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788840252",
@@ -320,7 +315,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-08",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788816186",
@@ -339,7 +335,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-07",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788782907",
@@ -358,7 +355,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-07",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788753731",
@@ -377,7 +375,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-07"
+    "lastUpdated": "2026-09-07",
+    "isTodaysPick": false
   },
   {
     "id": "curated-deal-radar-1788725748",
@@ -396,11 +395,12 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-06"
+    "lastUpdated": "2026-09-06",
+    "isTodaysPick": false
   },
   {
     "id": "r-frugal-community",
-    "title": "r/Frugal — Frugal Living & Savvy Consumer Community",
+    "title": "r/Frugal \u2014 Frugal Living & Savvy Consumer Community",
     "category": "Price Glitches & Loot",
     "platform": "Reddit",
     "memberCount": 3100000,
@@ -414,11 +414,12 @@
       "budgeting"
     ],
     "verified": true,
-    "featured": true
+    "featured": true,
+    "isTodaysPick": false
   },
   {
     "id": "r-gamedeals-official",
-    "title": "r/GameDeals — PC, Console & Digital Game Discounts",
+    "title": "r/GameDeals \u2014 PC, Console & Digital Game Discounts",
     "category": "Tech & Gadgets",
     "platform": "Reddit",
     "memberCount": 950000,
@@ -432,11 +433,12 @@
       "video-games"
     ],
     "verified": true,
-    "featured": true
+    "featured": true,
+    "isTodaysPick": false
   },
   {
     "id": "r-blackfriday-vault",
-    "title": "r/BlackFriday — Black Friday & Cyber Monday Deals Vault",
+    "title": "r/BlackFriday \u2014 Black Friday & Cyber Monday Deals Vault",
     "category": "Seasonal & Holiday Sales",
     "platform": "Reddit",
     "memberCount": 240000,
@@ -450,11 +452,12 @@
       "doorbusters"
     ],
     "verified": true,
-    "featured": false
+    "featured": false,
+    "isTodaysPick": false
   },
   {
     "id": "r-apphookup-drops",
-    "title": "r/AppHookup — iOS, Mac & Android Paid Apps Gone Free",
+    "title": "r/AppHookup \u2014 iOS, Mac & Android Paid Apps Gone Free",
     "category": "Tech & Gadgets",
     "platform": "Reddit",
     "memberCount": 290000,
@@ -468,11 +471,12 @@
       "free-apps"
     ],
     "verified": true,
-    "featured": false
+    "featured": false,
+    "isTodaysPick": false
   },
   {
     "id": "r-consoledeals-hub",
-    "title": "r/ConsoleDeals — PlayStation, Xbox & Switch Savings",
+    "title": "r/ConsoleDeals \u2014 PlayStation, Xbox & Switch Savings",
     "category": "Tech & Gadgets",
     "platform": "Reddit",
     "memberCount": 210000,
@@ -486,11 +490,12 @@
       "nintendo"
     ],
     "verified": true,
-    "featured": false
+    "featured": false,
+    "isTodaysPick": false
   },
   {
     "id": "r-efreebies-digital",
-    "title": "r/eFreebies — Digital Freebies, eBooks & Online Perks",
+    "title": "r/eFreebies \u2014 Digital Freebies, eBooks & Online Perks",
     "category": "Price Glitches & Loot",
     "platform": "Reddit",
     "memberCount": 480000,
@@ -504,11 +509,12 @@
       "zero-cost"
     ],
     "verified": true,
-    "featured": false
+    "featured": false,
+    "isTodaysPick": false
   },
   {
     "id": "gamedeals-discord-server",
-    "title": "GameDeals Official Discord — Real-Time Game Alerts",
+    "title": "GameDeals Official Discord \u2014 Real-Time Game Alerts",
     "category": "Tech & Gadgets",
     "platform": "Discord",
     "memberCount": 125000,
@@ -522,17 +528,18 @@
       "steam-sales"
     ],
     "verified": true,
-    "featured": true
+    "featured": true,
+    "isTodaysPick": false
   },
   {
     "id": "buildapcsales-discord-server",
-    "title": "BuildAPCSales Official Discord — Hardware Drop Radar",
+    "title": "r/buildapcsales Hardware Deals Radar",
     "category": "Tech & Gadgets",
-    "platform": "Discord",
+    "platform": "Reddit",
     "memberCount": 110000,
     "discountRange": "20% - 60% OFF",
     "description": "High-speed notifications for GPU restocks, SSD price cuts, CPU bundle deals, and computer hardware pricing errors.",
-    "joinUrl": "https://discord.gg/buildapcsales",
+    "joinUrl": "https://www.reddit.com/r/buildapcsales/",
     "tags": [
       "discord",
       "buildapc",
@@ -540,11 +547,12 @@
       "gpu-deals"
     ],
     "verified": true,
-    "featured": true
+    "featured": true,
+    "isTodaysPick": false
   },
   {
     "id": "slickdeals-telegram-channel",
-    "title": "Slickdeals Official Telegram — Editor Choice Deal Alerts",
+    "title": "Slickdeals Official Telegram \u2014 Editor Choice Deal Alerts",
     "category": "Amazon & E-Commerce",
     "platform": "Telegram",
     "memberCount": 85000,
@@ -558,7 +566,8 @@
       "flash-deals"
     ],
     "verified": true,
-    "featured": true
+    "featured": true,
+    "isTodaysPick": false
   },
   {
     "id": "deals-telegram-radar",
@@ -576,11 +585,12 @@
       "coupons"
     ],
     "verified": true,
-    "featured": false
+    "featured": false,
+    "isTodaysPick": false
   },
   {
     "id": "r-steamdeals-community",
-    "title": "r/SteamDeals — Steam Store Discounts & Weekend Sales",
+    "title": "r/SteamDeals \u2014 Steam Store Discounts & Weekend Sales",
     "category": "Tech & Gadgets",
     "platform": "Reddit",
     "memberCount": 160000,
@@ -594,7 +604,8 @@
       "indie-deals"
     ],
     "verified": true,
-    "featured": false
+    "featured": false,
+    "isTodaysPick": false
   },
   {
     "id": "lego-toy-collector-drops",
@@ -613,7 +624,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "business-class-points-glitches",
@@ -632,7 +644,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "luxury-watch-chrono-steals",
@@ -652,7 +665,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "costco-clearance-secret-items",
@@ -671,17 +685,18 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "whole-foods-prime-perks",
-    "title": "Whole Foods & Organic Grocery Perks",
+    "title": "r/coupons Verified Grocery & Food Savings",
     "category": "Price Glitches & Loot",
-    "platform": "Telegram",
+    "platform": "Reddit",
     "memberCount": 47600,
     "discountRange": "35% - 70% OFF",
     "description": "Weekly automated breakdowns of yellow tag sales, Prime member extra 10% stacks, and seasonal organic pantry liquidations.",
-    "joinUrl": "https://t.me/wholefoodsperks",
+    "joinUrl": "https://www.reddit.com/r/coupons/",
     "tags": [
       "whole foods",
       "organic",
@@ -690,7 +705,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "steam-deck-rog-ally-deals",
@@ -709,7 +725,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "glitch-deals-squad",
@@ -729,7 +746,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "amazon-lightning-stacks",
@@ -749,7 +767,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "pc-parts-gpu-lounge",
@@ -769,7 +788,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "secret-flying-error-fares",
@@ -789,7 +809,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "designer-streetwear-steals",
@@ -809,7 +830,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "reddit-freebies-hauls",
@@ -829,7 +851,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "prime-shopping-ninja",
@@ -848,7 +871,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "hardware-swap-refurb",
@@ -868,7 +892,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "luxury-outlet-glitches",
@@ -888,7 +913,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "mistake-fares-going",
@@ -907,7 +933,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "loot-freebie-matrix",
@@ -926,7 +953,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "target-walmart-hidden",
@@ -945,7 +973,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "apple-deals-refurb-watch",
@@ -965,7 +994,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "sneaker-steals-monitor",
@@ -985,17 +1015,18 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "points-miles-flight-guild",
-    "title": "Award Travel, Points & Glitch Guild",
+    "title": "r/awardtravel Points & Flight Guild",
     "category": "Travel & Error Fares",
-    "platform": "Discord",
+    "platform": "Reddit",
     "memberCount": 58400,
     "discountRange": "75% - 95% OFF",
     "description": "Elite community decoding credit card point transfer bonuses, award ticket sweetness spots, hotel point valuation hacks, and accidental partner award seat releases.",
-    "joinUrl": "https://discord.gg/awardtravel",
+    "joinUrl": "https://www.reddit.com/r/awardtravel/",
     "tags": [
       "award flights",
       "credit card points",
@@ -1004,7 +1035,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "cashback-stacking-churning",
@@ -1023,7 +1055,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "smart-home-iot-bargains",
@@ -1042,7 +1075,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "reddit-coupons-vault",
@@ -1061,7 +1095,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "zero-dollar-pantry-grocery",
@@ -1080,7 +1115,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "gaming-steals-steam-keys",
@@ -1100,7 +1136,8 @@
     ],
     "verified": true,
     "featured": true,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "fast-fashion-clearance-hounds",
@@ -1119,7 +1156,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "cruise-all-inclusive-rates",
@@ -1138,7 +1176,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "bestbuy-microcenter-drops",
@@ -1158,7 +1197,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "beauty-cosmetics-stacking",
@@ -1178,7 +1218,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "hotel-glitches-bug-hunters",
@@ -1198,7 +1239,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "reddit-deals-syndicate",
@@ -1217,7 +1259,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "homeware-appliance-radar",
@@ -1237,7 +1280,8 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   },
   {
     "id": "flash-food-dining-bogo",
@@ -1257,6 +1301,7 @@
     ],
     "verified": true,
     "featured": false,
-    "lastUpdated": "2026-09-03"
+    "lastUpdated": "2026-09-03",
+    "isTodaysPick": false
   }
 ]

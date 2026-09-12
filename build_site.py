@@ -29,8 +29,13 @@ def get_platform_badge_class(platform):
     return 'badge-default', 'fas fa-bullhorn', '#888888'
 
 def render_card_html(g):
-    badge_cls, icon_cls, color = get_platform_badge_class(g['platform'])
-    featured_badge = '<span class="badge-featured"><i class="fas fa-fire-flame-curved"></i> HOT DEAL</span>' if g.get('featured') else ''
+    is_today = g.get("isTodaysPick") or g.get("lastUpdated") == datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if is_today:
+        featured_badge = '<span class="badge-featured" style="background: rgba(245, 158, 11, 0.2); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.4);"><i class="fas fa-calendar-check"></i> 📅 Today\'s Fresh Pick</span>'
+    elif g.get('featured'):
+        featured_badge = '<span class="badge-featured"><i class="fas fa-fire-flame-curved"></i> HOT DEAL</span>'
+    else:
+        featured_badge = ''
     verified_badge = '<span class="badge-verified" title="Verified Community"><i class="fas fa-circle-check"></i> Verified</span>' if g.get('verified') else ''
     
     tags_html = "".join([f'<span class="tag-chip" onclick="handleTagClick(\'{html.escape(t)}\')">#{html.escape(t)}</span>' for t in g.get('tags', [])])
