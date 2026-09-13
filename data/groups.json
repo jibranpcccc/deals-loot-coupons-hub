@@ -1,5 +1,24 @@
 [
   {
+    "id": "deals-loot-coupons-hub-discord-20260913-1",
+    "title": "E-Commerce Sellers Discord",
+    "platform": "Discord",
+    "category": "E-Commerce Tech",
+    "memberCount": "35,000+ members",
+    "description": "Discord server for brand owners scaling DTC stores, TikTok shop integrations, and supply chain logistics.",
+    "joinUrl": "https://discord.gg/ecommerce",
+    "tags": [
+      "ecommerce",
+      "dtc",
+      "discord",
+      "shopify"
+    ],
+    "verified": true,
+    "featured": true,
+    "isTodaysPick": true,
+    "lastUpdated": "2026-09-13"
+  },
+  {
     "id": "deals-loot-coupons-hub-reddit-20260912-1",
     "title": "r/shopify Store Owners",
     "platform": "Reddit",
@@ -15,7 +34,7 @@
     ],
     "verified": true,
     "featured": true,
-    "isTodaysPick": true,
+    "isTodaysPick": false,
     "lastUpdated": "2026-09-12"
   },
   {
