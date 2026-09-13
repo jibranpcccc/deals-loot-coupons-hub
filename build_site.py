@@ -6,6 +6,7 @@ Generates index.html, sitemap.xml, feed.xml, and robots.txt from data/groups.jso
 import json
 import os
 import html
+import re
 from datetime import datetime, timezone
 
 SITE_URL = "https://jibranpcccc.github.io/deals-loot-coupons-hub/"
@@ -29,6 +30,7 @@ def get_platform_badge_class(platform):
     return 'badge-default', 'fas fa-bullhorn', '#888888'
 
 def render_card_html(g):
+    badge_cls, icon_cls, _ = get_platform_badge_class(g.get('platform', 'Reddit'))
     is_today = g.get("isTodaysPick") or g.get("lastUpdated") == datetime.now(timezone.utc).strftime("%Y-%m-%d")
     if is_today:
         featured_badge = '<span class="badge-featured" style="background: rgba(245, 158, 11, 0.2); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.4);"><i class="fas fa-calendar-check"></i> 📅 Today\'s Fresh Pick</span>'
@@ -39,7 +41,8 @@ def render_card_html(g):
     verified_badge = '<span class="badge-verified" title="Verified Community"><i class="fas fa-circle-check"></i> Verified</span>' if g.get('verified') else ''
     
     tags_html = "".join([f'<span class="tag-chip" onclick="handleTagClick(\'{html.escape(t)}\')">#{html.escape(t)}</span>' for t in g.get('tags', [])])
-    members_formatted = f"{g.get('memberCount', 0):,}"
+    raw_members = g.get('memberCount', 0)
+    members_formatted = f"{raw_members:,}" if isinstance(raw_members, (int, float)) else str(raw_members)
     
     return f"""
     <article class="deal-card" data-id="{html.escape(g['id'])}" data-category="{html.escape(g['category'])}" data-platform="{html.escape(g['platform'])}" data-members="{g.get('memberCount', 0)}" data-title="{html.escape(g['title'])}" data-tags="{html.escape(' '.join(g.get('tags', [])))}">
@@ -230,7 +233,14 @@ def generate_index_html(groups):
     schemas_tags = f'<script type="application/ld+json">\n{json.dumps(schema_graph, indent=2, ensure_ascii=False)}\n</script>'
     groups_json_str = json.dumps(groups, ensure_ascii=False)
     
-    total_members = sum(g.get('memberCount', 0) for g in groups)
+    def _parse_mcount(val):
+        if isinstance(val, (int, float)):
+            return int(val)
+        if isinstance(val, str):
+            digits = re.sub(r'[^\d]', '', val)
+            return int(digits) if digits else 0
+        return 0
+    total_members = sum(_parse_mcount(g.get('memberCount', 0)) for g in groups)
     total_channels = len(groups)
     
     html_content = f"""<!DOCTYPE html>
