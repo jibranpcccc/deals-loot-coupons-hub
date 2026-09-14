@@ -1,5 +1,24 @@
 [
   {
+    "id": "curated-deal-radar-1789422124",
+    "title": "r/Deals Online Bargain Radar",
+    "category": "Price Glitches & Loot",
+    "platform": "Reddit",
+    "memberCount": 87124,
+    "discountRange": "50% - 90% OFF",
+    "description": "High-velocity alerts catching retailer pricing anomalies, verified promo stacks, and seasonal warehouse clearance.",
+    "joinUrl": "https://www.reddit.com/r/deals/",
+    "tags": [
+      "deals",
+      "reddit",
+      "promo-codes",
+      "clearance"
+    ],
+    "verified": true,
+    "featured": false,
+    "lastUpdated": "2026-09-14"
+  },
+  {
     "id": "deals-loot-coupons-hub-forum-20260914-1",
     "title": "Slickdeals Community Forum",
     "platform": "Forum",
@@ -575,7 +594,7 @@
   },
   {
     "id": "r-frugal-community",
-    "title": "r/Frugal \u2014 Frugal Living & Savvy Consumer Community",
+    "title": "r/Frugal — Frugal Living & Savvy Consumer Community",
     "category": "Price Glitches & Loot",
     "platform": "Reddit",
     "memberCount": 3100000,
@@ -594,7 +613,7 @@
   },
   {
     "id": "r-gamedeals-official",
-    "title": "r/GameDeals \u2014 PC, Console & Digital Game Discounts",
+    "title": "r/GameDeals — PC, Console & Digital Game Discounts",
     "category": "Tech & Gadgets",
     "platform": "Reddit",
     "memberCount": 950000,
@@ -613,7 +632,7 @@
   },
   {
     "id": "r-blackfriday-vault",
-    "title": "r/BlackFriday \u2014 Black Friday & Cyber Monday Deals Vault",
+    "title": "r/BlackFriday — Black Friday & Cyber Monday Deals Vault",
     "category": "Seasonal & Holiday Sales",
     "platform": "Reddit",
     "memberCount": 240000,
@@ -632,7 +651,7 @@
   },
   {
     "id": "r-apphookup-drops",
-    "title": "r/AppHookup \u2014 iOS, Mac & Android Paid Apps Gone Free",
+    "title": "r/AppHookup — iOS, Mac & Android Paid Apps Gone Free",
     "category": "Tech & Gadgets",
     "platform": "Reddit",
     "memberCount": 290000,
@@ -651,7 +670,7 @@
   },
   {
     "id": "r-consoledeals-hub",
-    "title": "r/ConsoleDeals \u2014 PlayStation, Xbox & Switch Savings",
+    "title": "r/ConsoleDeals — PlayStation, Xbox & Switch Savings",
     "category": "Tech & Gadgets",
     "platform": "Reddit",
     "memberCount": 210000,
@@ -670,7 +689,7 @@
   },
   {
     "id": "r-efreebies-digital",
-    "title": "r/eFreebies \u2014 Digital Freebies, eBooks & Online Perks",
+    "title": "r/eFreebies — Digital Freebies, eBooks & Online Perks",
     "category": "Price Glitches & Loot",
     "platform": "Reddit",
     "memberCount": 480000,
@@ -689,7 +708,7 @@
   },
   {
     "id": "gamedeals-discord-server",
-    "title": "GameDeals Official Discord \u2014 Real-Time Game Alerts",
+    "title": "GameDeals Official Discord — Real-Time Game Alerts",
     "category": "Tech & Gadgets",
     "platform": "Discord",
     "memberCount": 125000,
@@ -727,7 +746,7 @@
   },
   {
     "id": "slickdeals-telegram-channel",
-    "title": "Slickdeals Official Telegram \u2014 Editor Choice Deal Alerts",
+    "title": "Slickdeals Official Telegram — Editor Choice Deal Alerts",
     "category": "Amazon & E-Commerce",
     "platform": "Telegram",
     "memberCount": 85000,
@@ -765,7 +784,7 @@
   },
   {
     "id": "r-steamdeals-community",
-    "title": "r/SteamDeals \u2014 Steam Store Discounts & Weekend Sales",
+    "title": "r/SteamDeals — Steam Store Discounts & Weekend Sales",
     "category": "Tech & Gadgets",
     "platform": "Reddit",
     "memberCount": 160000,
